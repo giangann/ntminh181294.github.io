@@ -32,11 +32,12 @@ a {
   text-decoration: none;
 }
 .tin_moi {
-  padding-left: 580px;
+  padding-left: 550px;
   font-weight: bolder;
   color: rgb(0, 144, 205);
   padding-bottom: 15px;
   padding-top: 25px;
+  text-decoration: underline;
 }
 input[type="text"] {
   float: right;
@@ -61,12 +62,12 @@ input[type="text"] {
 .caption3 {
   position: relative;
   bottom: 50px;
-  left: 670px;
+  left: 640px;
   font-weight: bolder;
 }
 footer {
   position: relative;
-  background-color: black;
+  background-color: gray;
   text-align: center;
 }
 .ff :link,
@@ -86,7 +87,7 @@ footer {
 .ff :active {
   color: antiquewhite;
 }
-article {
+.ND {
   text-align: justify;
   margin: 25%;
   margin-top: auto;
@@ -96,4 +97,11 @@ article {
   text-decoration: underline;
   font-weight: bolder;
   color: rgb(0, 144, 205);
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
