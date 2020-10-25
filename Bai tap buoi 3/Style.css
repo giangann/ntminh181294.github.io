@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  margin-left: 20px;
+}
+.quyenloi {
+  width: 24%;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.logo,
+.quyenloi,
+.gio {
+  display: inline-block;
+  margin: 5px;
+  float: left;
+  margin-top: 15px;
+  background-color: #960002;
+  margin-left: 11px;
+}
+.head1 {
+  background-color: #960002;
+}
+.head1,
+.head2 {
+  max-width: 960px;
+  margin: auto;
+}
+.menu {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  vertical-align: top;
+}
+.link {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bolder;
+  color: white;
+  margin-left: 20px;
+}
+.link :link,
+.link :visited {
+  font-weight: bolder;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding-bottom: 5px;
+  margin: 6.78px;
+}
+.link :hover,
+.link :active {
+  color: orangered;
+}
+header.link,
+.search,
+.nav,
+.head2 {
+  float: left;
+  border: solid 3px maroon;
+  background-color: maroon;
+}
+.search {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.hang1 {
+  padding-top: 20px;
+}
+.muc1 {
+  text-align: center;
+}
+.link :hover,
+.link :active {
+  color: orangered;
+}
+.sp {
+  width: 24%;
+  display: inline-block;
+  text-align: center;
+  font-weight: bolder;
+  color: black;
+  margin: 3px;
+}
+.Trai,
+.Phai,
+.hang1 {
+  display: inline-block;
+}
+.container1 {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  color: red;
+}
+
+h2 span {
+  background: #fff;
+  padding: 0 10px;
+}
+/* footer bắt đầu từ chỗ này */
+footer {
+  width: 100%;
+  background-color: #222;
+  height: 250px;
+  padding: 60px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ft1,
+.ft2 {
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+.ft_title,
+.ft_content {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+.container3 {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  height: auto;
+}
+.hasp {
+  width: 24.4%;
+  display: inline-block;
+}
+.container4 {
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+  margin-top: 20px;
+}
+.container3,
+.container4 {
+  display: inline-block;
+}
+.MH {
+  color: white;
+  font-weight: bolder;
+  background-color: maroon;
+  margin-left: 120px;
+}
+.container5 {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  text-align: center;
+}
+.g1,
+.g2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.g1 {
+    padding-bottom: 20px;
+}
+.g2 {
+    width: 50%;
+}
