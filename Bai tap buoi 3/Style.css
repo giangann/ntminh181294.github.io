@@ -150,7 +150,7 @@ footer {
   height: auto;
 }
 .hasp {
-  width: 24.4%;
+  width: 23.3%;
   display: inline-block;
 }
 .container4 {
@@ -164,18 +164,12 @@ footer {
 .container4 {
   display: inline-block;
 }
-.MH {
-  color: white;
-  font-weight: bolder;
-  background-color: maroon;
-  margin-left: 120px;
-}
 .container5 {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   height: auto;
-  text-align: center;
+  text-align: justify;
 }
 .g1,
 .g2 {
@@ -184,8 +178,11 @@ footer {
   margin-right: auto;
 }
 .g1 {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 .g2 {
-    width: 50%;
+  width: 50%;
+}
+footer {
+  height: auto;
 }
