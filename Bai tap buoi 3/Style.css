@@ -186,3 +186,7 @@ footer {
 footer {
   height: auto;
 }
+.hamn :hover,
+.hamn :active {
+  background-color: red;
+}
