@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid gray;
+  box-shadow: 5px 5px 5px gray;
+  border-radius: 8px;
+}
+.text {
+  margin: 15px;
+  margin-left: 20px;
+}
+.hovaten {
+  display: inline;
+  margin-left: 20px;
+  margin-right: auto;
+}
+.conlai {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+fieldset {
+  border: none;
+  max-width: 100%;
+}
+select {
+  margin: 5px;
+  height: 35px;
+  width: 30%;
+  border-radius: 5px;
+  font-size: 15px;
+  border: solid 1px gray;
+}
+.email {
+  width: 90%;
+  margin: 10px;
+  margin-left: 20px;
+  height: 40px;
+  border-radius: 5px;
+  border: solid 1px gray;
+}
+.ho {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: solid 1px gray;
+}
+.ten {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: solid 1px gray;
+}
+.mk {
+  width: 90%;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  height: 40px;
+  border-radius: 5px;
+  border: solid 1px gray;
+}
+.bede {
+  max-width: 100%;
+}
+.nu,
+.nam,
+.other {
+  border: solid 1px gray;
+  float: left;
+  margin-left: 5px;
+  height: 35px;
+  border-radius: 5px;
+}
+.nu {
+  width: 28%;
+  margin-right: 5px;
+  padding-top: 6px;
+}
+.nam {
+  width: 28%;
+  margin-right: 5px;
+  padding-top: 6px;
+}
+.other {
+  width: 34%;
+  padding-top: 6px;
+}
+.vovan {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+.vovan :hover {
+  text-decoration: underline;
+}
+.nuttaotk {
+  text-align: center;
+}
+.nutbam {
+  border: none;
+  color: white;
+  padding: 7px 65px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bolder;
+  background-color: rgb(11, 150, 53);
+  margin-bottom: 30px;
+  margin-top: 10px;
+}

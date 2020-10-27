@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 75%;
+}
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container2 {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: gray;
+  float: right;
+}
+.container1 {
+  max-width: 50%;
+}
+.container1,
+.container2 {
+  display: inline-block;
+  margin-top: 150px;
+}
+input {
+  display: block;
+  margin: 10px;
+}
+.nutdangnhap {
+  background-color: #1877f2;
+  border: none;
+  color: white;
+  padding: 12px 125px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bolder;
+}
+.nutdangky {
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 25px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bolder;
+  background-color: rgb(11, 150, 53);
+}
+.dk {
+  border: 1px solid gray;
+  text-align: center;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 8px;
+}
+form {
+  text-align: center;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.dnem {
+  margin-left: auto;
+  margin-right: auto;
+  width: 355px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+.nutdangnhap,
+.nutdangky {
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  text-decoration: none;
+}
+.vovan link,
+.vovan :visited {
+  color: black;
+  text-decoration: none;
+}
+.qmk link,
+.qmk :visited {
+  color: #1877f2;
+  text-decoration: none;
+}
+.qmk :hover {
+  text-decoration: underline;
+}
+.qmk {
+  margin: 15px;
+}
+.vovan {
+  text-align: center;
+  margin: 30px;
+}
+.vovan :hover {
+  text-decoration: underline;
+}
