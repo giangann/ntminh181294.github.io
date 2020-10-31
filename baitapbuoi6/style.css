@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 100%;
+}
+body {
+  margin: 0;
+}
+header {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 8px;
+}
+.logo {
+  width: 15%;
+  margin-left: 35px;
+  margin-top: 12px;
+}
+.searchbar {
+  width: 50%;
+}
+fieldset {
+  border: none;
+  margin-left: 90px;
+}
+#search {
+  width: 350px;
+  height: 43px;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  padding-left: 20px;
+  border: 1px solid gray;
+}
+button {
+  margin-left: -5px;
+  height: 43px;
+  width: 65px;
+  background-color: #4272d7;
+  color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  border: none;
+}
+.thongbao {
+  width: 30%;
+}
+.header-action-form1,
+.header-action-form2,
+.header-action-form3 {
+  display: inline-block;
+}
+.header-action-form1 {
+  margin-left: 47px;
+}
+.header-action-form2 {
+  margin-left: 27px;
+}
+.header-action-form3 {
+  margin-left: 27px;
+}
+.logo,
+.searchbar,
+.thongbao {
+  display: inline-block;
+}
+.thongbao_item {
+  color: #a9b3c9;
+}
+.thongbao {
+  float: right;
+  margin-top: 25px;
+}
+.left {
+  float: left;
+  max-width: 18.75%;
+  width: 100%;
+  margin-left: 35px;
+}
+.menu_items {
+  text-decoration: none;
+  display: block;
+  margin: 40px;
+}
+.menu_link:link,
+.menu_link:visited {
+  text-decoration: none;
+  color: black;
+}
+.right {
+  max-width: 78%;
+  width: 100%;
+}
+.left,
+.right {
+  display: inline-block;
+}
+.title {
+  float: left;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 45px;
+  margin-top: 45px;
+}
+.additem {
+  float: right;
+  margin-top: 45px;
+  margin-right: 35px;
+}
+.additem button {
+  width: 150px;
+}
+.row1 {
+  max-width: 100%;
+  background-color: pink;
+}
+.square1 {
+  background-image: -webkit-linear-gradient(90deg, #3f5efb 0%, #fc466b 100%);
+  width: 23%;
+  height: 100px;
+}
+.square2 {
+  background-image: -webkit-linear-gradient(90deg, #3f5efb 0%, #fc466b 100%);
+  width: 23%;
+  height: 100px;
+}
+.square3 {
+  background-image: -webkit-linear-gradient(90deg, #3f5efb 0%, #fc466b 100%);
+  width: 23%;
+  height: 100px;
+}
+.square4 {
+  background-image: -webkit-linear-gradient(90deg, #3f5efb 0%, #fc466b 100%);
+  width: 23%;
+  height: 100px;
+}
+.square1,
+.square2,
+.square3,
+.square4 {
+  display: inline-block;
+}
