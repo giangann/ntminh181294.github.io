@@ -1,0 +1,20 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 800px;
+    background-color: pink;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.flex-item {
+    /* background-color: royalblue;
+    height: 50px;
+    width: 50px;
+    text-align: center; */
+    width: 376px;
+}
+img {
+    max-width: 100%;
+}
