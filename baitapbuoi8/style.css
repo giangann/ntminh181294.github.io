@@ -174,12 +174,13 @@ header .container {
   width: 98.5%;
   background-color: #ff817e;
   position: relative;
-  bottom: 423px;
+  bottom: 470px;
   height: 100%;
   color: white;
   font-family: "Roboto", sans-serif;
   text-align: center;
   padding: 120px;
+  padding-bottom: 345px;
 }
 .service-menu:hover .hover {
   display: block;
