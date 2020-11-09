@@ -384,7 +384,7 @@ header .container {
   width: 60%;
   background-color: #fff9f8;
   text-align: center;
-  padding-top: 60px;
+  padding-top: 66px;
 }
 .half-width input {
   background-color: #fff9f8;
@@ -463,7 +463,7 @@ header .container {
   border-radius: 50px;
   text-transform: uppercase;
   position: relative;
-  right: 210px;
+  right: 250px;
 }
 .row6 {
   text-align: center;
@@ -539,7 +539,7 @@ header .container {
   margin-right: 20px;
   border-radius: 50%;
   text-align: center;
-  padding-top: 13px;
+  padding-top: 14px;
   color: white;
 }
 .address {
@@ -574,7 +574,7 @@ header .container {
   margin-right: 20px;
   border-radius: 50%;
   text-align: center;
-  padding-top: 13px;
+  padding-top: 14px;
   color: white;
 }
 .contact3 {
@@ -589,7 +589,7 @@ header .container {
   margin-right: 20px;
   border-radius: 50%;
   text-align: center;
-  padding-top: 13px;
+  padding-top: 14px;
   color: white;
 }
 .contact3 a {
