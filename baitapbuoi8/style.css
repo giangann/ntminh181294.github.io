@@ -181,6 +181,7 @@ header .container {
   text-align: center;
   padding: 120px;
   padding-bottom: 345px;
+  opacity: 0.8;
 }
 .service-menu:hover .hover {
   display: block;
