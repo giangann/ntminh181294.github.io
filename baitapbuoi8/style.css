@@ -421,8 +421,11 @@ header .container {
   position: relative;
 }
 #service {
-  width: 385px;
-  left: 40px;
+  width: 365%;
+  right: 55px;
+}
+#number {
+  left: 90px;
 }
 #date,
 #time {
