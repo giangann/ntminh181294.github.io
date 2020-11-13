@@ -786,4 +786,8 @@ footer .container {
   color: #5f5f5f;
   margin: 8px;
 }
+.foo-social a:hover {
+  color: black;
+  transition: 0.6s;
+}
 /* footer end */
