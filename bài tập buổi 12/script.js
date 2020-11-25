@@ -70,3 +70,36 @@
 // }
 
 //  Viết chương trình in ra bảng cửu chương ngược (từ 10 về 1)
+
+// let nguyento = (nt) => {
+//   let count = 0;
+//   for (i = 2; i < nt - 1; i++) {
+//     if (nt % i == 0) {
+//       count++;
+//     }
+//   }
+//   return count == 0;
+// };
+
+// for (let i = 0; i < 5; i++) {
+//   console.log(i);
+// }
+
+// let minh = {
+//   name: "Minh",
+//   age: "26",
+//   date: "18.12.1994",
+//   job: "nhân viên văn phòng",
+// };
+// function thongtin(a) {
+//  for (a = 0, )
+// }
+
+// while (true) {
+//   let key = prompt("nhập key", "");
+//   if (key === null || key === "") {
+//     break;
+//   }
+//   let value = prompt("nhập value", "");
+//   obj[key] = value;
+// }
