@@ -76,3 +76,34 @@
 // 8.
 
 // 9.
+// thực hành b6 trên lớp
+
+// function forEach(arr, callback) {
+//   for (let i = 0; i < arr.length; i++) {
+//     callback(arr[i]);
+//   }
+// }
+// let a = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// forEach(a, (i) => console.log(i * i));
+
+// function filter(arr, condition) {
+//     let temp = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         if (condition(arr[i])) {
+//             temp[temp.length] = arr[i]
+//         }
+//     }
+//     return temp;
+// }
+
+// function map(arr, callback) {
+//   let temp = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     temp[temp.length] = callback(arr[i]);
+//   }
+//   return temp;
+// }
+
+function isValidDate(value) {
+  return new Date(value).toString() != "Invalid Date";
+}
