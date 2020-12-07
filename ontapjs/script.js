@@ -40,16 +40,12 @@ secondHighest();
 
 // Bài 4: Viết hàm có 2 tham số là 2 chuỗi string và target khác rỗng, dùng để kiểm tra chuỗi string có kết
 // thúc bởi chuỗi target hay không. Kết quả trả về là true hoặc false.
-// let a = ("một hai ba bốn năm sáu!")
-// let b = ("sáu!")
-// function checkText(a, b) {
-//     if (b = a.endsWith(b)) {
-//         return true
-//     } else {
-//         return false
-//     }
-// }
-// checkText(a, b);
+let a = "một hai ba bốn năm sáu!";
+let b = "sáu!";
+function checkText(a, b) {
+  return a.endsWith(b);
+}
+checkText(a, b);
 
 // Bài 5: Cho 1 mảng chỉ chứa các phần tử có kiểu dữ liệu number, string và boolean. Hãy kiểm tra xem
 // trong mảng đó có phần tử nào bị lặp lại hay không (xuất hiện 2 lần trở lên). Kết quả trả về true (nếu lặp) hoặc false (nếu không lặp).
