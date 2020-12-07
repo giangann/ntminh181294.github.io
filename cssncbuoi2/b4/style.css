@@ -4,6 +4,9 @@ body {
 .container {
   display: block;
 }
+a {
+  color: red;
+}
 header {
   display: flex;
   height: 60px;
