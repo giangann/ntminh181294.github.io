@@ -1,26 +1,21 @@
 // Bài 1: Viết hàm chuyển đổi nhiệt độ từ độ C sang độ F, tham số truyền vào là 1 số nguyên biểu thị độ C. Ví dụ tham số truyền vào là -30 thì kết quả trả về là -22.
-// function celciusToFarenheit(a) {
-//     let b = a * 1.8 + 32;
-//     console.log(b)
-// }
-// celciusToFarenheit();
+function celciusToFarenheit(doC) {
+  let doF = doC * 1.8 + 32;
+  return doF;
+}
+celciusToFarenheit();
 
 // Bài 2: Cho 1 mảng có độ dài lớn hơn 2, chứa các số khác nhau. Hãy viết hàm tìm ra số lớn thứ nhì trong mảng.
 
-// let numbers = [4, 3, 24, 9, 57, 8, 6, 45, 65, 7, 36, 13, 59];
-// numbers.sort(function (a, b) {
-//   return a - b;
-// });
-// function secondHighest() {
-//   let max = 0;
-//   for (i = 0; i < numbers.length - 1; i++) {
-//     if (max < numbers[i]) {
-//       max = numbers[i];
-//     }
-//   }
-//   console.log(max);
-// }
-// secondHighest();
+let numbers = [4, 3, 24, 9, 57, 8, 6, 45, 65, 7, 36, 13, 59];
+numbers.sort(function (a, b) {
+  return a - b;
+});
+function secondHighest() {
+  let ndmax = numbers[numbers.length - 2];
+  return ndmax;
+}
+secondHighest();
 
 // Bài 3: Cho 1 mảng các chuỗi bất kỳ có độ dài khác nhau. Hãy viết hàm tìm ra chuỗi có độ dài lớn nhất.
 // let arr = [
