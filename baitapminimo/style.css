@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1066px;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  width: 1066px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 112.5px;
+  align-items: center;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+}
+.menu_item {
+  display: inline;
+  margin-left: 110px;
+}
+.menu_link {
+  color: gray;
+  font-size: 14px;
+}
+.logo {
+  font-family: "Inconsolata";
+  font-size: 30px;
+  color: black;
+}
+.gioithieu {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+.gioithieu p:first-child {
+  font-family: "Ubuntu";
+  font-size: 14px;
+  text-transform: uppercase;
+  color: gray;
+}
+.gioithieu p:nth-child(2) {
+  font-family: "PlayfairDisplay";
+  font-size: 30px;
+  color: rgb(90, 90, 90);
+  margin-top: 20px;
+}
+.gioithieu p:nth-child(3) {
+  font-family: "PlayfairDisplay";
+  font-size: 14px;
+  color: rgb(122, 122, 122);
+  margin-top: 30px;
+}
+.gioithieu p:nth-child(4) {
+  font-family: "Ubuntu";
+  font-size: 14px;
+  text-transform: uppercase;
+  color: gray;
+  margin-top: 40px;
+}
+.caclink1,
+.caclink2 {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 60px;
+  row-gap: 110px;
+}
+.khung p:first-child {
+  font-family: "Ubuntu";
+  font-size: 14px;
+  text-transform: uppercase;
+  color: gray;
+  margin-top: 20px;
+}
+.khung p:nth-child(2) {
+  font-family: "PlayfairDisplay";
+  font-size: 30px;
+  color: rgb(90, 90, 90);
+  margin-top: 20px;
+}
+.khung p:nth-child(3) {
+  font-family: "PlayfairDisplay";
+  font-size: 14px;
+  color: rgb(122, 122, 122);
+  margin-top: 30px;
+}
+.sign-up {
+  width: 1066px;
+  margin-top: 80px;
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up p {
+  font-size: 30px;
+  font-family: "PlayfairDisplay";
+}
+.sent {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.sent input,
+.sent button {
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: black;
+  background-color: rgb(228, 228, 228);
+  font-family: "PlayfairDisplay";
+}
+.sent input {
+  width: 300px;
+}
+.sent button {
+  font-size: 20px;
+}
+.load {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 1066px;
+}
+.load button {
+  width: 130px;
+  font-family: "PlayfairDisplay";
+  font-size: 20px;
+  color: gray;
+  background-color: white;
+  border: 1px solid gray;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  background-color: rgb(228, 228, 228);
+  margin-top: 150px;
+  width: 1066px;
+}
+footer a {
+  color: gray;
+}
+.left {
+  margin-left: 83px;
+}
+.left a:nth-child(2) {
+  margin-left: 10px;
+}
+.right {
+  margin-right: 83px;
+}
+.right a {
+  margin-left: 10px;
+}
+@media only screen and (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    width: 1066px;
+  }
+  .logo {
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    font-size: 46px;
+  }
+  .menu_link {
+    font-size: 30px;
+  }
+  .menu_item {
+    display: block;
+    text-align: center;
+    margin: 0;
+    margin: 10px;
+  }
+  .banner {
+    margin-top: 180px;
+  }
+  .gioithieu {
+    width: 1000px;
+    margin-left: 33px;
+  }
+  .gioithieu p:nth-child(1) {
+    font-size: 30px;
+  }
+  .gioithieu p:nth-child(2) {
+    font-size: 46px;
+  }
+  .gioithieu p:nth-child(3) {
+    font-size: 30px;
+  }
+  .gioithieu p:nth-child(4) {
+    font-size: 30px;
+  }
+  .caclink1,
+  .caclink2 {
+    grid-template-columns: repeat(1, 1fr);
+    width: 1000px;
+    margin-left: 33px;
+  }
+  .image img {
+    width: 100%;
+  }
+  .khung p:first-child {
+    font-size: 30px;
+  }
+  .khung p:nth-child(2) {
+    font-size: 46px;
+  }
+  .khung p:nth-child(3) {
+    font-size: 30px;
+  }
+  .sign-up {
+    width: 1066px;
+  }
+  .sign-up p {
+    font-size: 46px;
+  }
+  .sent input {
+    font-size: 38px;
+    width: 100%;
+  }
+  .sent button {
+    font-size: 38px;
+  }
+  .load button {
+    font-size: 36px;
+    width: 250px;
+    height: 100px;
+  }
+  footer {
+    flex-direction: column;
+    height: 400px;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .left a:nth-child(2) {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .right a {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  footer a {
+    font-size: 35px;
+    width: 100%;
+  }
+}
