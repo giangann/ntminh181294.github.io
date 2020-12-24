@@ -9,7 +9,7 @@
   margin-right: auto;
 }
 header {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   background-color: white;
 }
 .welcome {
@@ -126,7 +126,7 @@ header {
 }
 .inner-link p {
   font-size: 24px;
-  font-family: "Gilda Display";
+  font-family: "Gilda Display", serif;
   margin-top: 10px;
 }
 .d-block:hover,
@@ -152,7 +152,7 @@ header {
   width: 55px;
   background-color: #e79e5a;
   color: #ffffff;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   line-height: 14.63px;
   text-align: center;
@@ -162,7 +162,7 @@ header {
   left: 32px;
   font-size: 18px;
   line-height: 21.19px;
-  font-family: "Gilda Display";
+  font-family: "Gilda Display", serif;
   color: #ffffff;
 }
 .lower1 {
@@ -189,7 +189,7 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .post-title p {
-  font-family: "Gilda Display";
+  font-family: "Gilda Display", serif;
   font-size: 24px;
   line-height: 28.25px;
   padding-top: 8px;
@@ -218,7 +218,7 @@ header {
   justify-content: center;
 }
 .posts-container .row .col-lg-4 .post-content span {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 10px;
   line-height: 12.19px;
   text-align: center;
@@ -229,9 +229,9 @@ header {
   top: 23px;
 }
 .posts-container .row .col-lg-4 .post-content p {
-  font-family: "Gilda Display";
+  font-family: "Gilda Display", serif;
   font-size: 20px;
-  line-height: 32px;
+  line-height: 28px;
   text-align: center;
   color: #525252;
   padding-top: 65px;
@@ -244,7 +244,7 @@ header {
   justify-content: center;
 }
 .page-link {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 17.07px;
   color: #525252;
@@ -265,7 +265,7 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .insta-title p {
-  font-family: "Gilda Display";
+  font-family: "Gilda Display", serif;
   font-size: 24px;
   line-height: 28.25px;
   padding-top: 8px;
@@ -317,17 +317,21 @@ footer {
   background-color: #e79e5a;
 }
 .sent-email input {
-  max-width: 259px;
+  width: 240px;
   height: 40px;
   border: 1px solid #cdcdcd;
   outline: none;
   background-color: #575757;
   border-right: none;
   font-size: 12px;
-  font-family: "Gilda Display";
+  font-family: "Gilda Display", serif;
   line-height: 14.12px;
   padding-left: 15px;
   margin-top: 28px;
+}
+.sent-email input::placeholder {
+  color: #c6c6c6;
+  font-family: "Gilda Display", serif;
 }
 .follow-site .social i {
   color: #cdcdcd;
@@ -362,19 +366,21 @@ footer {
   bottom: 5px;
   color: #ffffff;
   text-decoration: none;
+  font-family: "Gilda Display", serif;
 }
 .footer-post a:nth-child(2):hover {
   color: #e79e5a;
 }
 .about span,
 .sent-email span,
-.follow p {
-  font-family: "Montserrat";
+.follow p,
+.footer-latestpost {
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 17.07px;
 }
 .about p {
-  font-family: "Gilda Display";
+  font-family: "Gilda Display", serif;
   font-size: 14px;
   line-height: 26px;
   margin-top: 19px;
@@ -394,13 +400,13 @@ footer {
 .footer-lower p {
   text-align: center;
   color: #ffffff;
-  font-family: "Gilda Display";
+  font-family: "Gilda Display", serif;
   font-size: 14px;
   line-height: 16.48px;
 }
 .footer-lower span {
   color: #e79e5a;
-  font-family: "Gilda Display";
+  font-family: "Gilda Display", serif;
   font-size: 14px;
   line-height: 16.48px;
 }
