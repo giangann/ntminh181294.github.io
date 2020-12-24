@@ -8,6 +8,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: #f2f2f2;
+  overflow-x: hidden;
 }
 header {
   font-family: "Montserrat";
