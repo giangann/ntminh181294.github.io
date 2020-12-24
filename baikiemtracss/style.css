@@ -91,7 +91,7 @@ header {
 .navbar button {
   outline: none;
 }
-.banner-container {
+.banner {
   width: 946px;
   margin-left: auto;
   margin-right: auto;
@@ -130,7 +130,6 @@ header {
   transition: 0.3s;
 }
 .lower-banner .row .col-lg-4 {
-  margin-right: -2.5px;
   position: relative;
   margin-top: 39px;
 }
@@ -194,8 +193,7 @@ header {
   margin-top: 20px;
 }
 .posts-container .row .col-lg-4 {
-  width: 294px;
-  height: 380px;
+  width: 100%;
   margin-top: 47px;
 }
 .posts-container .row .col-lg-4 img {
@@ -231,7 +229,7 @@ header {
   line-height: 32px;
   text-align: center;
   color: #525252;
-  padding-top: 75px;
+  padding-top: 65px;
   position: absolute;
   width: 100%;
 }
@@ -279,4 +277,127 @@ header {
 }
 .instagram-container .row .col-lg-3 img {
   width: 100%;
+}
+.instagram-container .row .col-lg-3 img:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+footer {
+  background-color: #575757;
+  padding-top: 75px;
+  margin-top: 102px;
+  height: 100%;
+}
+.footer-upper {
+  width: 946px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+}
+.follow-site,
+.email-input {
+  display: flex;
+  flex-direction: row;
+}
+.follow-site {
+  margin-top: 23px;
+}
+.sent-email button {
+  width: 49px;
+  height: 40px;
+  border: 1px solid #cdcdcd;
+  outline: none;
+  background-color: #575757;
+  margin-top: 28px;
+}
+.sent-email button:active {
+  background-color: #e79e5a;
+}
+.sent-email input {
+  width: 259px;
+  height: 40px;
+  border: 1px solid #cdcdcd;
+  outline: none;
+  background-color: #575757;
+  border-right: none;
+  font-size: 12px;
+  font-family: "Gilda Display";
+  line-height: 14.12px;
+  padding-left: 15px;
+  margin-top: 28px;
+}
+.follow-site .social i {
+  color: #cdcdcd;
+}
+.follow-site .social {
+  border: 1px solid #cdcdcd;
+}
+.follow-site .social:hover {
+  border: 1px solid #e79e5a;
+}
+.follow-site .social i:hover {
+  color: #e79e5a;
+}
+.footer-post {
+  display: flex;
+  flex-direction: row;
+  margin-top: 11px;
+}
+.footer-post img {
+  width: 73px;
+  height: 62px;
+}
+.footer-post img:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.footer-post a:nth-child(2) {
+  margin-left: 15px;
+  font-size: 12px;
+  line-height: 22px;
+  position: relative;
+  bottom: 5px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-post a:nth-child(2):hover {
+  color: #e79e5a;
+}
+.about span,
+.sent-email span,
+.follow p {
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 17.07px;
+}
+.about p {
+  font-family: "Gilda Display";
+  font-size: 14px;
+  line-height: 26px;
+  margin-top: 19px;
+}
+.follow p {
+  margin-top: 37px;
+}
+.footer-lower {
+  width: 551px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+.footer-lower hr {
+  background-color: #787878;
+}
+.footer-lower p {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Gilda Display";
+  font-size: 14px;
+  line-height: 16.48px;
+}
+.footer-lower span {
+  color: #e79e5a;
+  font-family: "Gilda Display";
+  font-size: 14px;
+  line-height: 16.48px;
 }
