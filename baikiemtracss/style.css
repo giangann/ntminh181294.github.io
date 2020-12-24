@@ -255,6 +255,10 @@ header {
   background-color: #e79e5a;
   color: #ffffff;
 }
+.page-link:hover {
+  background-color: #e79e5a;
+  color: #ffffff;
+}
 .insta-title {
   max-width: 267px;
   height: 44px;
