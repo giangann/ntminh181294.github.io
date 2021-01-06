@@ -145,3 +145,7 @@ body {
   font-family: Georgia;
   font-size: 2em;
 }
+.back a {
+  text-decoration: none;
+  color: white;
+}
