@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 30px 0 135px 0;
-  background-image: url("78536634-a-vector-neon-pop-background-80s-90s-.jpg");
+  background-image: url("fire-4063376.jpg");
   background-size: cover;
 }
 .glow {
@@ -28,13 +28,13 @@ body {
 }
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
-      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f7910c,
+      0 0 40px #f7910c, 0 0 50px #f7910c, 0 0 60px #f7910c, 0 0 70px #f7910c;
   }
 
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
-      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    text-shadow: 0 0 20px #fff, 0 0 30px #f7d850, 0 0 40px #f7d850,
+      0 0 50px #f7d850, 0 0 60px #f7d850, 0 0 70px #f7d850, 0 0 80px #f7d850;
   }
 }
 .play {
@@ -64,31 +64,38 @@ body {
   color: black;
   font-size: 25px;
   background-color: red;
-  width: 100px;
-  height: 40px;
+  width: 120px;
+  height: 45px;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 8px;
   color: white;
   font-weight: bolder;
   border-radius: 10px;
 }
 .buttons a:hover {
   background-color: orange;
-  transition: 0.6s;
+  transition: 0.3s;
 }
 .border-img {
   width: 100%;
 }
+.game-container {
+  background-image: url("fire-4063376.jpg");
+  background-size: cover;
+  height: 760px;
+  padding-top: 5px;
+}
 .game-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  max-width: 946px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  column-gap: 10px;
-  row-gap: 10px;
-  margin-top: 50px;
+  column-gap: 40px;
+  row-gap: 40px;
+  margin-top: 40px;
   overflow: hidden;
+  background-size: cover;
 }
 .flipCard {
   -webkit-perspective: 800;
@@ -128,20 +135,27 @@ body {
 }
 
 .flipCard .card .front {
-  font-family: Georgia;
-  font-size: 3em;
+  font-family: "Libre Baskerville", serif;
+  padding-top: 20px;
+  font-size: 4em;
   text-align: center;
   line-height: 160px;
-  background-color: rgb(196, 4, 4);
   border: 3px solid yellow;
   color: white;
+  background-image: url("leaves-5588034.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .flipCard .card .back {
-  background-color: rgb(196, 4, 4);
+  background-image: url("leaves-5588034.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   border: 3px solid yellow;
   text-align: center;
   color: white;
-  padding-top: 50px;
+  padding-top: 75px;
   font-family: Georgia;
   font-size: 2em;
 }
