@@ -941,6 +941,11 @@ input:focus {
   padding-left: 120px;
 }
 
+.footer-links a:hover,
+.footer-news a:hover {
+  color: #e10000;
+}
+
 .footer-copyright {
   text-align: center;
   background-color: black;
