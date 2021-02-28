@@ -34,11 +34,9 @@
 }
 
 .header-upper,
-.header-lower,
 .header-banner {
-  max-width: 1240px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  padding: 0 100px 0 100px;
 }
 
 .header-upper {
@@ -48,8 +46,17 @@
 
 .header-lower {
   margin-top: 0;
-  position: relative;
-  bottom: 10px;
+  max-width: 1440px;
+  padding: 10px 100px 10px 100px;
+  z-index: 3;
+  overflow: hidden;
+  background-color: black;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .header-contact {
@@ -58,7 +65,7 @@
 }
 
 .header-social {
-  width: 200px;
+  max-width: 200px;
   display: flex;
   flex-direction: row;
   border-left: 1px solid #e5e5e5;
@@ -110,9 +117,13 @@
 }
 
 .header-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   position: relative;
-  left: 380px;
+  left: 15px;
 }
+
 /* search box start*/
 .search {
   position: relative;
@@ -172,8 +183,10 @@ input:focus {
   font-weight: bold;
   color: white;
 }
+
 .nav-link:hover {
   color: #e10000;
+  transition: 0.5s;
 }
 .join {
   height: 42px;
@@ -251,6 +264,11 @@ input:focus {
 .header-button {
   margin-top: 50px;
 }
+
+.navbar-toggler {
+  background-color: white;
+  width: 100%;
+}
 /* header-banner end */
 /* -- ------header end------ -- */
 .button--style1:focus {
@@ -260,10 +278,9 @@ input:focus {
 /* indext-content start */
 /* introduction start */
 .introduction-container {
-  max-width: 1240px;
-  height: 796px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 793px;
+  width: 100%;
+  padding: 0 100px 0 100px;
   margin-top: 70px;
 }
 
@@ -301,6 +318,12 @@ input:focus {
 .gallery2,
 .gallery3 {
   margin-top: 15px;
+}
+
+.introduction-right img:hover {
+  box-shadow: -1px 4px 10px 5px rgba(0, 0, 0, 0.32);
+  transition: 0.5s;
+  transform: translate(0, -5px);
 }
 
 .introduction-firstwords span,
@@ -625,6 +648,7 @@ input:focus {
 
 .trainers-card .card-body {
   height: 260px;
+  background-color: #e5e5e5;
 }
 
 .trainers-card a {
@@ -731,9 +755,8 @@ input:focus {
 
 .products-list .card:hover {
   box-shadow: -1px 4px 10px 5px rgba(0, 0, 0, 0.32);
-  position: relative;
-  bottom: 5px;
   transition: 0.5s;
+  transform: translate(0, -5px);
 }
 
 .items:nth-child(5),
