@@ -45,11 +45,9 @@
 }
 
 .header-lower {
-  margin-top: 0;
   max-width: 1440px;
   padding: 10px 100px 10px 100px;
   z-index: 3;
-  overflow: hidden;
   background-color: black;
 }
 
@@ -62,6 +60,8 @@
 .header-contact {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 11px;
 }
 
 .header-social {
@@ -97,10 +97,6 @@
 
 .header--social--link .fab:hover {
   color: #e10000;
-}
-
-.header-contact {
-  padding-top: 11px;
 }
 
 .header-contact p {
@@ -164,12 +160,12 @@ input:focus {
 }
 
 .search.active .input {
-  width: 250px;
+  width: 239px;
   background-color: white;
 }
 
 .search.active .search-btn {
-  transform: translateX(248px);
+  transform: translateX(237px);
   border-radius: 0%;
   background-color: white;
   color: #e10000;
@@ -201,6 +197,49 @@ input:focus {
 .join:hover {
   border: solid 2px #e10000;
 }
+
+@media (max-width: 1350px) {
+  .header-upper {
+    display: none;
+  }
+
+  .main-container {
+    position: relative;
+    bottom: 15px;
+  }
+}
+
+@media (max-width: 1042px) {
+  .nav-item {
+    margin-left: 9px;
+  }
+
+  .logo {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .header-nav {
+    left: 0;
+  }
+
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-item {
+    text-align: center;
+    margin: 0;
+  }
+
+  .join {
+    width: 100%;
+  }
+}
+
 /* header-banner start */
 .header-banner {
   color: white;
@@ -265,10 +304,16 @@ input:focus {
   margin-top: 50px;
 }
 
-.navbar-toggler {
-  background-color: white;
-  width: 100%;
+@media (max-width: 579px) {
+  .button--buy {
+    margin: 0 0 0 0;
+  }
+
+  .header-banner {
+    padding: 0 50px 0 50px;
+  }
 }
+
 /* header-banner end */
 /* -- ------header end------ -- */
 .button--style1:focus {
@@ -278,46 +323,55 @@ input:focus {
 /* indext-content start */
 /* introduction start */
 .introduction-container {
-  height: 793px;
   width: 100%;
   padding: 0 100px 0 100px;
   margin-top: 70px;
 }
 
-.introduction-left {
-  max-width: 590px;
-}
-
 .introduction-content {
-  margin-top: 86px;
+  margin-top: 50px;
 }
 
 .introduction-perk {
   border: 1px solid #c4c4c4;
-  height: 175px;
   max-width: 590px;
-  padding: 38px 30px 0 30px;
-  margin-top: 15px;
+  padding: 30px 30px 30px 30px;
 }
 
-.introduction-perk span {
+.collapse-btn {
+  border: none;
+  background-color: white;
   font-weight: bold;
+  color: #e10000;
+}
+
+.collapse-btn:hover {
+  color: black;
+}
+
+.collapse-btn:focus {
+  outline: none;
+}
+
+.perk2,
+.perk3 {
+  margin-top: 15px;
 }
 
 .introduction-right {
   position: relative;
-  max-width: 590px;
-  height: 800px;
-  left: 75px;
 }
 
 .introduction-right .row {
-  margin-top: 50px;
+  margin-top: 35px;
 }
 
-.gallery2,
-.gallery3 {
+.gallery {
   margin-top: 15px;
+}
+
+.introduction-right img {
+  width: 100%;
 }
 
 .introduction-right img:hover {
@@ -338,11 +392,25 @@ input:focus {
   font-size: 24px;
   margin-top: 35px;
 }
+
+@media (max-width: 991px) {
+  .introduction-right {
+    left: 0;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 579px) {
+  .introduction-container {
+    padding: 0 50px 0 50px;
+  }
+}
+
 /* introduction end */
 /* classes start */
 .classes-container {
   margin-top: 70px;
-  height: 1030px;
+  max-width: 1440px;
 }
 
 .classes-firstwords {
@@ -355,7 +423,7 @@ input:focus {
   background-size: cover;
 }
 
-.classes-firstwords span {
+.classes-firstwords h5 {
   font-size: 24px;
   color: white;
 }
@@ -367,47 +435,25 @@ input:focus {
 }
 
 .classes-firstwords p,
-.classes-firstwords span {
-  padding-left: 100px;
+.classes-firstwords h5 {
+  padding: 0 100px 0 100px;
 }
 
 .classesCarousel {
-  max-width: 1240px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 1440px;
+  padding: 0 100px 0 100px;
   position: relative;
   bottom: 125px;
   z-index: 2;
 }
 
-.classes-background {
-  background-color: #e5e5e5;
-  height: 530px;
-  position: relative;
-  bottom: 527px;
-  z-index: 1;
-}
-
 .classes-card {
   border-radius: 0;
-  max-width: 394px;
 }
 
 .classes-card img {
-  height: 250px;
   border-radius: 0;
-}
-
-.classes-card .card-body {
-  height: 260px;
-}
-
-.classes-card .card-body .card-text {
-  height: 58px;
-}
-
-.classesCarousel {
-  position: relative;
+  width: 100%;
 }
 
 .classesCarousel .carousel-control-prev {
@@ -415,7 +461,7 @@ input:focus {
   width: 35px;
   position: absolute;
   top: 110%;
-  left: 46.5%;
+  left: 46.2%;
   background-color: #e10000;
 }
 
@@ -424,12 +470,15 @@ input:focus {
   width: 35px;
   position: absolute;
   top: 110%;
-  right: 46.5%;
+  right: 46.2%;
   background-color: #e10000;
 }
 
 .classes-card .card-body {
-  margin: 15px 0 0 20px;
+  margin: 15px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .classes-card .card-body .card-title {
@@ -443,6 +492,7 @@ input:focus {
   padding-top: 12px;
   font-weight: bold;
   margin-top: 30px;
+  width: 100%;
 }
 
 .btn-primary:hover {
@@ -451,21 +501,49 @@ input:focus {
   color: #e10000;
 }
 
+@media (max-width: 991px) {
+  .classesCarousel .carousel-control-next,
+  .classesCarousel .carousel-control-prev {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .classesCarousel {
+    bottom: 100px;
+    padding: 0 100px 0 100px;
+  }
+
+  .classes-card {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 579px) {
+  .classes-firstwords p,
+  .classes-firstwords h5 {
+    padding: 0 50px 0 50px;
+  }
+  .classesCarousel {
+    padding: 0 50px 0 50px;
+  }
+}
+
 /* classes end */
 /* achievement start */
 .achievement-container {
-  max-width: 1240px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 1440px;
+  padding: 0 100px 0 100px;
+  background-color: #e5e5e5;
 }
 
 .achievement-content {
   display: flex;
   flex-direction: column;
-  max-width: 310px;
   height: 310px;
   align-items: center;
   padding-top: 105px;
+  text-align: center;
 }
 
 .achievement-content h2 {
@@ -479,10 +557,21 @@ input:focus {
   font-weight: bold;
 }
 
+@media (max-width: 767px) {
+  .achievement-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 579px) {
+  .achievement-container {
+    padding: 0 50px 0 50px;
+  }
+}
+
 /* achievement end */
 /* vipdeal start */
 .vipdeal-container {
-  height: 1240px;
   background-color: #e5e5e5;
 }
 
@@ -496,7 +585,7 @@ input:focus {
   background-size: cover;
 }
 
-.vipdeal-firstwords span {
+.vipdeal-firstwords h5 {
   font-size: 24px;
   color: white;
 }
@@ -508,33 +597,31 @@ input:focus {
 }
 
 .vipdeal-firstwords p,
-.vipdeal-firstwords span {
-  padding-left: 100px;
+.vipdeal-firstwords h5 {
+  padding: 0 100px 0 100px;
 }
 
 .vipdeal-package .row {
-  padding: 0 100px 0 100px;
+  padding: 0 100px 70px 100px;
   margin-top: 70px;
 }
 
 .package-left {
   background-color: white;
-  height: 600px;
   text-align: center;
-  padding-top: 58px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   box-shadow: 0 4px 4px 2px gray;
   z-index: 2;
+  padding: 50px 0 50px 0;
 }
 
 .package-right {
   background-color: #d9d9d9;
-  height: 560px;
-  position: relative;
-  top: 20px;
   text-align: center;
-  padding-top: 38px;
+  align-items: center;
+  padding: 50px 0 50px 0;
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 4px 2px gray;
@@ -565,7 +652,7 @@ input:focus {
 .vipdeal-content {
   display: flex;
   flex-direction: row;
-  margin-left: 125px;
+  justify-content: flex-start;
 }
 
 .vipdeal-content p {
@@ -613,13 +700,31 @@ input:focus {
   transition: 0.5s;
 }
 
+@media (max-width: 579px) {
+  .vipdeal-firstwords p,
+  .vipdeal-firstwords h5 {
+    padding: 0 50px 0 50px;
+  }
+
+  .vipdeal-package .row {
+    padding: 0 50px 70px 50px;
+  }
+
+  .vipdeal-content p {
+    font-size: 16px;
+  }
+
+  .vipdeal-content .fas {
+    font-size: 14px;
+    margin: 0;
+  }
+}
+
 /* vipdeal end */
 /* trainers start */
 .trainers-container {
-  width: 1240px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 70px 0 70px 0;
+  max-width: 1440px;
+  padding: 70px 100px 70px 100px;
 }
 
 .trainers-title {
