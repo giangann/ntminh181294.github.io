@@ -245,22 +245,22 @@
                 </p>
               </div>
               <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 gallery">
+                <div class="col-lg-6 col-md-6 col-sm-12 gallery">
                   <a href="#"><img src="./image/Rectangle 11.png" /></a>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 gallery">
+                <div class="col-lg-6 col-md-6 col-sm-12 gallery">
                   <a href="#"><img src="./image/Rectangle 5.png" /></a>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 gallery">
+                <div class="col-lg-6 col-md-6 col-sm-12 gallery">
                   <a href="#"><img src="./image/Rectangle 12.png" /></a>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 gallery">
+                <div class="col-lg-6 col-md-6 col-sm-12 gallery">
                   <a href="#"><img src="./image/Rectangle 13.png" /></a>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 gallery">
+                <div class="col-lg-6 col-md-6 col-sm-12 gallery">
                   <a href="#"><img src="./image/Rectangle 9.png" /></a>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 gallery">
+                <div class="col-lg-6 col-md-6 col-sm-12 gallery">
                   <a href="#"><img src="./image/Rectangle 10.png" /></a>
                 </div>
               </div>
@@ -286,10 +286,10 @@
             data-interval="false"
             data-ride="carousel"
           >
-            <div class="carousel-inner">
+            <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
                 <div class="row">
-                  <div class="col-lg-4 col-md-4 col-sm-12 d-flex">
+                  <div class="col-lg-4">
                     <div class="card classes-card" data-aos="fade-up">
                       <img
                         class="card-img-top"
@@ -308,7 +308,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-md-4 col-sm-12 d-flex">
+                  <div class="col-lg-4 clearfix d-none d-lg-block">
                     <div
                       class="card classes-card"
                       data-aos="fade-up"
@@ -319,7 +319,7 @@
                         src="./image/Rectangle 17.jpg"
                         alt="Card image cap"
                       />
-                      <div class="card-body flex-fill">
+                      <div class="card-body">
                         <h5 class="card-title">DANCE</h5>
                         <p class="card-text">
                           Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -331,7 +331,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-md-4 col-sm-12 d-flex">
+                  <div class="col-lg-4 clearfix d-none d-lg-block">
                     <div
                       class="card classes-card"
                       data-aos="fade-up"
@@ -342,7 +342,7 @@
                         src="./image/Rectangle 16.png"
                         alt="Card image cap"
                       />
-                      <div class="card-body flex-fill">
+                      <div class="card-body">
                         <h5 class="card-title">CARDIO</h5>
                         <p class="card-text">
                           Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -358,14 +358,14 @@
               </div>
               <div class="carousel-item">
                 <div class="row">
-                  <div class="col-lg-4 col-md-4 col-sm-12 d-flex">
+                  <div class="col-lg-4">
                     <div class="card classes-card">
                       <img
                         class="card-img-top"
                         src="./image/Rectangle 20.jpg"
                         alt="Card image cap"
                       />
-                      <div class="card-body flex-fill">
+                      <div class="card-body">
                         <h5 class="card-title">BOXING</h5>
                         <p class="card-text">
                           Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -377,14 +377,14 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-md-4 col-sm-12 d-flex">
+                  <div class="col-lg-4 clearfix d-none d-lg-block">
                     <div class="card classes-card">
                       <img
                         class="card-img-top"
                         src="./image/Rectangle 21.jpg"
                         alt="Card image cap"
                       />
-                      <div class="card-body flex-fill">
+                      <div class="card-body">
                         <h5 class="card-title">YOGA</h5>
                         <p class="card-text">
                           Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -396,14 +396,14 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-md-4 col-sm-12 d-flex">
+                  <div class="col-lg-4 clearfix d-none d-lg-block">
                     <div class="card classes-card">
                       <img
                         class="card-img-top"
                         src="./image/Rectangle 22.jpg"
                         alt="Card image cap"
                       />
-                      <div class="card-body flex-fill">
+                      <div class="card-body">
                         <h5 class="card-title">AEROBIC</h5>
                         <p class="card-text">
                           Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -418,30 +418,32 @@
                 </div>
               </div>
             </div>
-            <a
-              class="carousel-control-prev"
-              href="#classesCarouselControls"
-              role="button"
-              data-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a
-              class="carousel-control-next"
-              href="#classesCarouselControls"
-              role="button"
-              data-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Next</span>
-            </a>
+            <div class="controls-bottom">
+              <a
+                class="carousel-control-prev"
+                href="#classesCarouselControls"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#classesCarouselControls"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -495,7 +497,7 @@
         <div class="vipdeal-container">
           <div class="vipdeal-firstwords">
             <div class="row">
-              <div class="col-lg-6 col-md-12 col-sm-12">
+              <div class="col-lg-8 col-md-12 col-sm-12">
                 <h5>Các gói cơ bản và giá tiền</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
               </div>
@@ -577,22 +579,28 @@
       <section class="trainers">
         <div class="trainers-container">
           <div class="trainers-title">
-            <h5>Các huấn luyện viên</h5>
-            <a href="#"
-              ><button class="button--style1 button--trainers">
-                Xem thêm
-              </button></a
-            >
+            <div class="row">
+              <div class="col-lg-8 col-md-8 col-sm-12">
+                <h5>Các huấn luyện viên</h5>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <a href="#"
+                  ><button class="button--style1 button--trainers">
+                    Xem thêm
+                  </button></a
+                >
+              </div>
+            </div>
           </div>
           <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
               <div class="card trainers-card" data-aos="fade-up">
                 <img
                   class="card-img-top"
                   src="./image/trainer 1.png"
                   alt="Card image cap"
                 />
-                <div class="card-body">
+                <div class="card-body flex-fill">
                   <a href="#"><h1 class="card-title">NEAL LEYTON</h1></a>
                   <h5>Personal trainer</h5>
                   <p class="card-text">
@@ -613,7 +621,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
               <div
                 class="card trainers-card"
                 data-aos="fade-up"
@@ -624,7 +632,7 @@
                   src="./image/trainer 2.png"
                   alt="Card image cap"
                 />
-                <div class="card-body">
+                <div class="card-body flex-fill">
                   <a href="#"><h1 class="card-title">VANESSA GIBBS</h1></a>
                   <h5>Personal trainer</h5>
                   <p class="card-text">
@@ -645,7 +653,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
               <div
                 class="card trainers-card"
                 data-aos="fade-up"
@@ -656,7 +664,7 @@
                   src="./image/trainer 3.png"
                   alt="Card image cap"
                 />
-                <div class="card-body">
+                <div class="card-body flex-fill">
                   <a href="#"><h1 class="card-title">NEAL LEYTON</h1></a>
                   <h5>Personal trainer</h5>
                   <p class="card-text">
@@ -677,7 +685,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
               <div
                 class="card trainers-card"
                 data-aos="fade-up"
@@ -688,7 +696,7 @@
                   src="./image/trainer 4.png"
                   alt="Card image cap"
                 />
-                <div class="card-body">
+                <div class="card-body flex-fill">
                   <a href="#"><h1 class="card-title">ELAINE SUTTON</h1></a>
                   <h5>Personal trainer</h5>
                   <p class="card-text">
@@ -722,7 +730,7 @@
           <div class="products-content">
             <div class="products-list">
               <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-3 items">
+                <div class="col-lg-3 col-md-6 col-sm-12 items">
                   <div class="card">
                     <a href="#"
                       ><img
@@ -748,7 +756,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 items">
+                <div class="col-lg-3 col-md-6 col-sm-12 items">
                   <div class="card">
                     <a href="#"
                       ><img
@@ -774,7 +782,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 items">
+                <div class="col-lg-3 col-md-6 col-sm-12 items">
                   <div class="card">
                     <a href="#"
                       ><img
@@ -800,7 +808,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 items">
+                <div class="col-lg-3 col-md-6 col-sm-12 items">
                   <div class="card">
                     <a href="#"
                       ><img
@@ -826,7 +834,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 items">
+                <div class="col-lg-3 col-md-6 col-sm-12 items">
                   <div class="card">
                     <a href="#"
                       ><img
@@ -852,7 +860,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 items">
+                <div class="col-lg-3 col-md-6 col-sm-12 items">
                   <div class="card">
                     <a href="#"
                       ><img
@@ -878,7 +886,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 items">
+                <div class="col-lg-3 col-md-6 col-sm-12 items">
                   <div class="card">
                     <a href="#"
                       ><img
@@ -904,7 +912,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 items">
+                <div class="col-lg-3 col-md-6 col-sm-12 items">
                   <div class="card">
                     <a href="#"
                       ><img
@@ -957,7 +965,7 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="col-lg-4">
                       <div class="card review-card" data-aos="fade-up">
                         <img
                           class="card-img-top"
@@ -982,7 +990,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="col-lg-4 clearfix d-none d-lg-block">
                       <div
                         class="card review-card"
                         data-aos="fade-up"
@@ -1011,7 +1019,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="col-lg-4 clearfix d-none d-lg-block">
                       <div
                         class="card review-card"
                         data-aos="fade-up"
@@ -1044,7 +1052,7 @@
                 </div>
                 <div class="carousel-item">
                   <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="col-lg-4">
                       <div class="card review-card">
                         <img
                           class="card-img-top"
@@ -1069,7 +1077,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="col-lg-4 clearfix d-none d-lg-block">
                       <div class="card review-card">
                         <img
                           class="card-img-top"
@@ -1094,7 +1102,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="col-lg-4 clearfix d-none d-lg-block">
                       <div class="card review-card">
                         <img
                           class="card-img-top"
@@ -1156,7 +1164,7 @@
         <div class="footer-container">
           <div class="footer-contact">
             <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6 footer-social">
+              <div class="col-lg-6 col-md-12 col-sm-12 footer-social">
                 <h1>LIÊN HỆ:</h1>
                 <div class="social-block">
                   <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -1171,11 +1179,8 @@
                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </div>
               </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 footer-email">
-                <input
-                  type="email"
-                  placeholder="Đăng ký để nhận thông tin ưu đãi"
-                />
+              <div class="col-lg-6 col-md-12 col-sm-12 footer-email">
+                <input type="email" placeholder="Email....." />
                 <a href="#"
                   ><button class="button--style1 button--footer">
                     Đăng ký
@@ -1186,7 +1191,7 @@
           </div>
           <div class="footer-content">
             <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-4 footer-about">
+              <div class="col-lg-4 col-md-4 col-sm-12 footer-about">
                 <h1>VỀ CHÚNG TÔI</h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -1199,15 +1204,7 @@
                   mollit anim id est laborum.
                 </p>
               </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 footer-links">
-                <h1>CÁC LINK KHÁC</h1>
-                <a href="#">Giới thiệu</a>
-                <a href="#">Dịch vụ</a>
-                <a href="#">Blog</a>
-                <a href="#">Cửa hàng</a>
-                <a href="#">Liên hệ</a>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 footer-news">
+              <div class="col-lg-4 col-md-4 col-sm-12 footer-news">
                 <h1>CÁC THÔNG TIN MỚI</h1>
                 <a href="#"
                   >Sed ut perspiciatis unde omnis iste natus error sit</a
@@ -1222,6 +1219,14 @@
                 <a href="#"
                   >Itaque earum rerum hic tenetur a sapiente delectus</a
                 >
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12 footer-links">
+                <h1>CÁC LINK KHÁC</h1>
+                <a href="#">Giới thiệu</a>
+                <a href="#">Dịch vụ</a>
+                <a href="#">Blog</a>
+                <a href="#">Cửa hàng</a>
+                <a href="#">Liên hệ</a>
               </div>
             </div>
           </div>
