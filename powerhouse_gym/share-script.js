@@ -13,17 +13,38 @@ AOS.init({
   duration: 1000,
 });
 
-window.onscroll = function () {
-  myFunction();
-};
+// window.onscroll = function () {
+//   myFunction();
+// };
 
-const navbar = document.getElementById("sticky-nav");
-const sticky = navbar.offsetTop;
+// const navbar = document.getElementById("sticky-nav");
+// const sticky = navbar.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky");
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
+// function myFunction() {
+//   if (window.pageYOffset >= sticky) {
+//     navbar.classList.add("sticky");
+//   } else {
+//     navbar.classList.remove("sticky");
+//   }
+// }
+
+$(document).ready(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 50) {
+      $("#back-to-top").fadeIn();
+    } else {
+      $("#back-to-top").fadeOut();
+    }
+  });
+  // scroll body to 0px on click
+  $("#back-to-top").click(function () {
+    $("body,html").animate(
+      {
+        scrollTop: 0,
+      },
+      400
+    );
+    return false;
+  });
+});
+

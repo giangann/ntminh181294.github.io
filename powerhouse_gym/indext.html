@@ -15,7 +15,7 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="indext-style.css" />
-    <link rel="shortcut icon" href="./image/logo.png" />
+    <link rel="shortcut icon" href="./image/logo-b.png" />
     <title>Powerhouse Gym</title>
   </head>
   <body>
@@ -112,7 +112,7 @@
                             <a class="nav-link" href="#">Blog</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Cửa Hàng</a>
+                            <a class="nav-link" href="shop.html">Cửa Hàng</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="#">Liên Hệ</a>
@@ -123,7 +123,79 @@
                             ></a>
                           </li>
                           <li class="nav-item join">
-                            <a class="nav-link" href="#">Đăng Ký</a>
+                            <button
+                              type="button"
+                              class="btn btn-info btn-lg"
+                              data-toggle="modal"
+                              data-target="#myModal"
+                            >
+                              Đăng Ký
+                            </button>
+                            <div class="modal fade" id="myModal" role="dialog">
+                              <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                  <div class="row">
+                                    <div
+                                      class="col-lg-6 col-md-12 col-sm-12 signup-left"
+                                    >
+                                      <h1>ĐĂNG KÝ NHANH</h1>
+                                      <p>
+                                        Đăng ký với chúng tôi ngay để luyện tập
+                                        theo cách của bạn
+                                      </p>
+                                      <div class="signup-contact">
+                                        <span
+                                          ><i
+                                            class="fas fa-phone-alt"
+                                          ></i></span
+                                        >+84 0943002294
+                                      </div>
+                                      <div class="signup-contact">
+                                        <span
+                                          ><i class="fas fa-envelope"></i></span
+                                        >ntminh181294@gmail.com
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="col-lg-6 col-md-12 col-sm-12 signup-right"
+                                    >
+                                      <button
+                                        type="button"
+                                        class="close"
+                                        data-dismiss="modal"
+                                      >
+                                        &times;
+                                      </button>
+                                      <div class="signup-content">
+                                        <input
+                                          type="text"
+                                          placeholder="Họ và tên"
+                                          class="input-box"
+                                        />
+                                        <input
+                                          type="email"
+                                          placeholder="Email"
+                                          class="input-box"
+                                        />
+                                        <input
+                                          type="number"
+                                          placeholder="Số điện thoại"
+                                          class="input-box"
+                                        />
+                                        <input
+                                          type="text"
+                                          placeholder="Địa chỉ"
+                                          class="input-box"
+                                        />
+                                        <button class="signup-btn">
+                                          ĐĂNG KÝ
+                                        </button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                           </li>
                         </ul>
                       </div>
@@ -180,13 +252,20 @@
                   <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="introduction-perk perk1">
                       <button
+                        class="btn btn-link collapsed"
                         data-toggle="collapse"
-                        data-target="#perk1-content"
-                        class="collapse-btn"
+                        data-target="#collapseOne"
+                        aria-expanded="false"
+                        aria-controls="collapseOne"
                       >
                         1. Huấn luyện viên riêng cho bạn
+                        <i class="fa" aria-hidden="true"></i>
                       </button>
-                      <div id="perk1-content" class="collapse">
+                      <div
+                        id="collapseOne"
+                        class="collapse"
+                        aria-labelledby="headingOne"
+                      >
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit, sed do eiusmod tempor incididunt ut labore et
@@ -199,13 +278,20 @@
                   <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="introduction-perk perk2">
                       <button
-                        class="collapse-btn"
+                        class="btn btn-link collapsed"
                         data-toggle="collapse"
-                        data-target="#perk2-content"
+                        data-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
                       >
                         2. Thử tập luyện miễn phí
+                        <i class="fa" aria-hidden="true"></i>
                       </button>
-                      <div id="perk2-content" class="collapse">
+                      <div
+                        id="collapseTwo"
+                        class="collapse"
+                        aria-labelledby="headingTwo"
+                      >
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit, sed do eiusmod tempor incididunt ut labore et
@@ -217,13 +303,22 @@
                   <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="introduction-perk perk3">
                       <button
+                        class="btn btn-link collapsed"
                         data-toggle="collapse"
-                        data-target="#perk3-content"
-                        class="collapse-btn"
+                        data-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
                       >
-                        3. Dịch vụ chất lượng
+                        3. Dịch vụ chất lượng<i
+                          class="fa"
+                          aria-hidden="true"
+                        ></i>
                       </button>
-                      <div id="perk3-content" class="collapse">
+                      <div
+                        id="collapseThree"
+                        class="collapse"
+                        aria-labelledby="headingThree"
+                      >
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit, sed do eiusmod tempor incididunt ut labore et
@@ -1235,6 +1330,13 @@
           </div>
         </div>
       </footer>
+      <a
+        id="back-to-top"
+        href="#"
+        class="btn btn-light btn-lg back-to-top"
+        role="button"
+        ><i class="fas fa-chevron-up"></i
+      ></a>
       <!-- ------footer end------ -->
     </div>
   </body>
