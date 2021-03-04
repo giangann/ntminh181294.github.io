@@ -583,6 +583,11 @@ input:focus {
   width: 100%;
 }
 
+.classes-card .card-footer {
+  border: none;
+  background-color: white;
+}
+
 .classesCarousel .carousel-control-prev {
   height: 35px;
   width: 35px;
@@ -880,6 +885,11 @@ input:focus {
   background-color: #e5e5e5;
 }
 
+.trainers-card .card-footer {
+  border: none;
+  background-color: #e5e5e5;
+}
+
 .trainers-card a {
   text-decoration: none;
 }
@@ -1123,6 +1133,12 @@ input:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.review-card .card-footer {
+  border: none;
+  background-color: transparent;
+  text-align: center;
 }
 
 .review-card .card-text {
