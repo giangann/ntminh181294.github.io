@@ -48,3 +48,8 @@ $(document).ready(function () {
   });
 });
 
+jQuery(".carousel-main").flickity({
+  contain: true,
+  pageDots: false,
+  prevNextButtons: false,
+});

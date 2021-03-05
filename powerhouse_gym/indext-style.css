@@ -297,6 +297,10 @@ input:focus {
   border: solid 2px #e10000;
   color: #e10000;
 }
+
+.modal {
+  padding: 0 100px 0 100px;
+}
 /* sign-up end */
 
 @media (max-width: 1350px) {
@@ -346,6 +350,12 @@ input:focus {
 
   .signup-right {
     padding: 0 40px 40px 40px;
+  }
+}
+
+@media (max-width: 579px) {
+  .modal {
+    padding: 0 50px 0 50px;
   }
 }
 

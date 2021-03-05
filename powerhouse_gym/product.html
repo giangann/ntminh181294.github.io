@@ -15,6 +15,10 @@
       crossorigin="anonymous"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
     <link rel="stylesheet" href="product-style.css" />
     <link rel="shortcut icon" href="./image/logo-b.png" />
     <title>Giày thể thao</title>
@@ -108,7 +112,7 @@
                             <a class="nav-link" href="#">Blog</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Cửa Hàng</a>
+                            <a class="nav-link" href="shop.html">Cửa Hàng</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="#">Liên Hệ</a>
@@ -128,7 +132,9 @@
                               Đăng Ký
                             </button>
                             <div class="modal fade" id="myModal" role="dialog">
-                              <div class="modal-dialog modal-lg">
+                              <div
+                                class="modal-dialog modal-lg modal-dialog-centered"
+                              >
                                 <div class="modal-content">
                                   <div class="row">
                                     <div
@@ -207,8 +213,8 @@
                 <li class="breadcrumb-item">
                   <a href="indext.html">Trang chủ</a>
                 </li>
-                <li class="breadcrumb-item active" aria-current="page">
-                  Cửa hàng
+                <li class="breadcrumb-item">
+                  <a href="shop.html">Cửa hàng</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
                   Giày thể thao
@@ -219,10 +225,510 @@
         </div>
       </header>
       <!-- ------header end------ -->
+      <section class="product-info">
+        <div class="product-info-containner">
+          <div class="row">
+            <!-- products-info-left start -->
+            <div class="col-lg-8 col-md-12 col-sm-12">
+              <div class="products-info-left">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="img-slider">
+                      <div class="carousel carousel-main" data-flickity>
+                        <div class="carousel-cell flex-img">
+                          <img src="./image/Product 1.png" />
+                        </div>
+                        <div class="carousel-cell flex-img">
+                          <img src="./image/Product 2.png" />
+                        </div>
+                        <div class="carousel-cell flex-img">
+                          <img src="./image/Product 3.png" />
+                        </div>
+                        <div class="carousel-cell flex-img">
+                          <img src="./image/Product 4.png" />
+                        </div>
+                      </div>
+                      <div
+                        class="carousel carousel-nav"
+                        data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'
+                      >
+                        <div class="carousel-cell">
+                          <img src="./image/Product 1.png" />
+                        </div>
+                        <div class="carousel-cell">
+                          <img src="./image/Product 2.png" />
+                        </div>
+                        <div class="carousel-cell">
+                          <img src="./image/Product 3.png" />
+                        </div>
+                        <div class="carousel-cell">
+                          <img src="./image/Product 4.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="product-status">
+                      <h1>Giày thể thao</h1>
+                      <div class="product-rate">
+                        <div class="product-stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                        <div class="rate-count">
+                          <h5>(1 đánh giá)</h5>
+                        </div>
+                      </div>
+                      <h2>₫699.000</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                      </p>
+                      <div class="order">
+                        <input
+                          type="number"
+                          id="quantity"
+                          name="quantity"
+                          min="1"
+                        />
+                        <a href="shopping-bag.html"
+                          ><button>ĐẶT HÀNG</button></a
+                        >
+                      </div>
+                      <h5>Mã sản phẩm: LXAP1001</h5>
+                      <h5 class="product-type">
+                        Phân loại: <span>Phụ kiện</span>
+                      </h5>
+                      <h5 class="available">
+                        Tình trạng: <span>Còn hàng</span>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-detail">
+                  <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        id="home-tab"
+                        data-toggle="tab"
+                        href="#home"
+                        role="tab"
+                        aria-controls="home"
+                        aria-selected="true"
+                        >Mô tả sản phẩm</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        id="profile-tab"
+                        data-toggle="tab"
+                        href="#profile"
+                        role="tab"
+                        aria-controls="profile"
+                        aria-selected="false"
+                        >Thông tin chi tiết</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        id="contact-tab"
+                        data-toggle="tab"
+                        href="#contact"
+                        role="tab"
+                        aria-controls="contact"
+                        aria-selected="false"
+                        >Bình luận</a
+                      >
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div
+                      class="tab-pane fade show active"
+                      id="home"
+                      role="tabpanel"
+                      aria-labelledby="home-tab"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                    </div>
+                    <div
+                      class="tab-pane fade detail-content"
+                      id="profile"
+                      role="tabpanel"
+                      aria-labelledby="profile-tab"
+                    >
+                      <h5>Xuất xứ sản phẩm<span>: Toldo.</span></h5>
+                      <h5>Bảo hành<span>: 12 tháng.</span></h5>
+                      <h5>Tặng thêm<span>: 1 đôi tất hoặc 1 đôi lót.</span></h5>
+                      <h5>Chất liệu<span>: 100% Da bò.</span></h5>
+                      <h5>Giao hàng<span>: Miễn phí toàn quốc.</span></h5>
+                      <h5>Loại giày<span>: Tăng chiều cao.</span></h5>
+                      <h5>Tăng thêm<span>: 6.5 cm.</span></h5>
+                      <h5>
+                        Kiểm tra hàng<span
+                          >: Được kiểm tra hàng trước khi thanh toán.</span
+                        >
+                      </h5>
+                    </div>
+                    <div
+                      class="tab-pane fade comment"
+                      id="contact"
+                      role="tabpanel"
+                      aria-labelledby="contact-tab"
+                    >
+                      <i class="fas fa-comments"></i>
+                      <h5>Không có bình luận</h5>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="product-similar">
+                  <h1>Có thể bạn quan tâm</h1>
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 items">
+                      <div class="card">
+                        <a href="#"
+                          ><img
+                            class="card-img-top"
+                            src="./image/Product 7.png"
+                            alt="Card image cap"
+                        /></a>
+                        <div class="card-body">
+                          <div class="product-upper">
+                            <a href="#"><h5>Đốt mỡ</h5></a>
+                            <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                          </div>
+                          <div class="product-lower">
+                            <p>TPCN</p>
+                            <h5>₫499.000</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 items">
+                      <div class="card">
+                        <a href="#"
+                          ><img
+                            class="card-img-top"
+                            src="./image/Product 8.png"
+                            alt="Card image cap"
+                        /></a>
+                        <div class="card-body">
+                          <div class="product-upper">
+                            <a href="#"><h5>Bột Protein</h5></a>
+                            <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                          </div>
+                          <div class="product-lower">
+                            <p>TPCN</p>
+                            <h5>₫1199.000</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 items">
+                      <div class="card">
+                        <a href="#"
+                          ><img
+                            class="card-img-top"
+                            src="./image/Product 9.jpg"
+                            alt="Card image cap"
+                        /></a>
+                        <div class="card-body">
+                          <div class="product-upper">
+                            <a href="#"><h5>Áo gym</h5></a>
+                            <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                          </div>
+                          <div class="product-lower">
+                            <p>Đồ thể thao</p>
+                            <h5>₫199.000</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- product-left end -->
+            <!-- product-right start -->
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <div class="products-right">
+                <div class="products-search">
+                  <input type="search" placeholder="Tìm kiếm sản phẩm" />
+                  <a href="#"
+                    ><button class="products-btn">
+                      <i class="fas fa-search"></i></button
+                  ></a>
+                </div>
+                <hr />
+                <div class="products-sort">
+                  <h5>Phân loại sản phẩm</h5>
+                  <div class="sort-buttons">
+                    <a href="#"><button>Phụ kiện</button></a>
+                    <a href="#"><button>Dụng cụ</button></a>
+                    <a href="#"><button>Thực phẩm chức năng</button></a>
+                    <a href="#"><button>Đồ thể thao</button></a>
+                    <a href="#"><button>Đồ điện tử</button></a>
+                    <a href="#"><button>Các loại sản phẩm khác</button></a>
+                  </div>
+                </div>
+                <hr />
+                <div class="popular">
+                  <h5>Các sản phẩm bán chạy</h5>
+                  <div class="popular-content">
+                    <div class="card mb-3 popular-items">
+                      <div class="row no-gutters">
+                        <div class="col-sm-5">
+                          <a href="#"
+                            ><img
+                              src="./image/Rectangle 137.png"
+                              class="card-img"
+                              alt="products imgs"
+                          /></a>
+                        </div>
+                        <div class="col-sm-7">
+                          <div class="card-body">
+                            <a href="#"
+                              ><p class="card-title">Giày thể thao</p></a
+                            >
+                            <div class="popular-stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                            </div>
+                            <p>₫699.000</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mb-3 popular-items">
+                      <div class="row no-gutters">
+                        <div class="col-sm-5">
+                          <a href="#"
+                            ><img
+                              src="./image/Rectangle 138.png"
+                              class="card-img"
+                              alt="products imgs"
+                          /></a>
+                        </div>
+                        <div class="col-sm-7">
+                          <div class="card-body">
+                            <a href="#"><p class="card-title">Thảm Yoga</p></a>
+                            <div class="popular-stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <p>₫699.000</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mb-3 popular-items">
+                      <div class="row no-gutters">
+                        <div class="col-sm-5">
+                          <a href="#"
+                            ><img
+                              src="./image/Rectangle 139.png"
+                              class="card-img"
+                              alt="products imgs"
+                          /></a>
+                        </div>
+                        <div class="col-sm-7">
+                          <div class="card-body">
+                            <a href="#"
+                              ><p class="card-title">Tập ngón tay</p></a
+                            >
+                            <div class="popular-stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <p>₫299.000</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mb-3 popular-items">
+                      <div class="row no-gutters">
+                        <div class="col-sm-5">
+                          <a href="#"
+                            ><img
+                              src="./image/Rectangle 137.png"
+                              class="card-img"
+                              alt="products imgs"
+                          /></a>
+                        </div>
+                        <div class="col-sm-7">
+                          <div class="card-body">
+                            <a href="#"
+                              ><p class="card-title">Giày thể thao</p></a
+                            >
+                            <div class="popular-stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <p>₫699.000</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mb-3 popular-items">
+                      <div class="row no-gutters">
+                        <div class="col-sm-5">
+                          <a href="#"
+                            ><img
+                              src="./image/Rectangle 141.png"
+                              class="card-img"
+                              alt="products imgs"
+                          /></a>
+                        </div>
+                        <div class="col-sm-7">
+                          <div class="card-body">
+                            <a href="#"><p class="card-title">Bình nước</p></a>
+                            <div class="popular-stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <p>₫199.000</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- product-right end -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer start -->
+      <footer>
+        <div class="footer-container">
+          <div class="footer-contact">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12 footer-social">
+                <h1>LIÊN HỆ:</h1>
+                <div class="social-block">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="social-block">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="social-block">
+                  <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+                <div class="social-block">
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 footer-email">
+                <input type="email" placeholder="Email....." />
+                <a href="#"
+                  ><button class="button--style1 button--footer">
+                    Đăng ký
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="footer-content">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-12 footer-about">
+                <h1>VỀ CHÚNG TÔI</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </p>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12 footer-news">
+                <h1>HƯỚNG DẪN & CHÍNH SÁCH</h1>
+                <a href="#">Hướng dẫn mua hàng</a>
+                <a href="#">Thẻ Thành Viên</a>
+                <a href="#">Chính sách đổi trả & hoàn tiền</a>
+                <a href="#">Chính sách thanh toán</a>
+                <a href="#">Chính sách vận chuyển</a>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12 footer-links">
+                <h1>CÁC LINK KHÁC</h1>
+                <a href="#">Giới thiệu</a>
+                <a href="#">Dịch vụ</a>
+                <a href="#">Blog</a>
+                <a href="#">Cửa hàng</a>
+                <a href="#">Liên hệ</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <p>Copyright @2021 | Site design by</p>
+          </div>
+        </div>
+      </footer>
+      <a
+        id="back-to-top"
+        href="#"
+        class="btn btn-light btn-lg back-to-top"
+        role="button"
+        ><i class="fas fa-chevron-up"></i
+      ></a>
+      <!-- footer end -->
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="share-script.js"></script>
   </body>
 </html>
