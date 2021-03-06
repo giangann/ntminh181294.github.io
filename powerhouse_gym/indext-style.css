@@ -29,8 +29,9 @@
 }
 /* video banner end*/
 .header-container {
-  height: 800px;
+  min-height: 800px;
   position: relative;
+  padding-bottom: 50px;
 }
 
 .header-upper,
@@ -325,6 +326,10 @@ input:focus {
 }
 
 @media (max-width: 991px) {
+  .header-lower {
+    padding: 10px 20px 10px 20px;
+  }
+
   .header-nav {
     left: 0;
   }
@@ -332,15 +337,16 @@ input:focus {
   .navbar {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
   }
 
   .nav-item {
-    text-align: center;
+    text-align: start;
     margin: 0;
   }
 
   .join .btn-info {
+    margin-top: 15px;
     width: 100%;
   }
 

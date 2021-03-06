@@ -53,3 +53,12 @@ jQuery(".carousel-main").flickity({
   pageDots: false,
   prevNextButtons: false,
 });
+
+function deleteProduct() {
+  var x = document.getElementById("delete");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

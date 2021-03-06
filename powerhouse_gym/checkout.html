@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/9eee272ff4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="checkout-style.css" />
+    <link rel="shortcut icon" href="./image/logo-b.png" />
+    <title>Check out</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- ------header begin------ -->
+      <header>
+        <div class="header-container">
+          <div class="header-upper">
+            <div class="row">
+              <div class="col-lg-2">
+                <div class="header-social">
+                  <div class="header--social--link">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </div>
+                  <span>|</span>
+                  <div class="header--social--link">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <span>|</span>
+                  <div class="header--social--link">
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                  </div>
+                  <span>|</span>
+                  <div class="header--social--link">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="search">
+                  <input type="text" class="input" placeholder="Tìm kiếm..." />
+                  <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="header-contact">
+                  <p>
+                    <i class="fas fa-map-marker-alt"></i
+                    ><span>22 Thành Công, Đống Đa, Hà Nội</span>
+                  </p>
+                  <p>
+                    <i class="fas fa-mobile-alt"></i><span>+84 0943002294</span>
+                  </p>
+                  <p>
+                    <i class="far fa-envelope"></i
+                    ><span>ntminh181294@gmail.com</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="header-lower" id="sticky-nav">
+            <div class="header-lower-content">
+              <div class="row">
+                <div class="col-lg-1">
+                  <div class="logo">
+                    <a href="indext.html"><img src="./image/logo-b.png" /></a>
+                  </div>
+                </div>
+                <div class="col-lg-11 col-md-12 col-sm-12">
+                  <div class="header-nav">
+                    <nav class="navbar navbar-expand-lg">
+                      <button
+                        class="navbar-toggler navbar-dark bg-transparent"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapsibleNavbar"
+                      >
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div
+                        class="collapse navbar-collapse"
+                        id="collapsibleNavbar"
+                      >
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="indext.html">Trang Chủ</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Giới Thiệu</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Dịch Vụ</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Cửa Hàng</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Liên Hệ</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#"
+                              ><i class="fas fa-shopping-bag"></i
+                            ></a>
+                          </li>
+                          <li class="nav-item join">
+                            <button
+                              type="button"
+                              class="btn btn-info btn-lg"
+                              data-toggle="modal"
+                              data-target="#myModal"
+                            >
+                              Đăng Ký
+                            </button>
+                            <div class="modal fade" id="myModal" role="dialog">
+                              <div
+                                class="modal-dialog modal-lg modal-dialog-centered"
+                              >
+                                <div class="modal-content">
+                                  <div class="row">
+                                    <div
+                                      class="col-lg-6 col-md-12 col-sm-12 signup-left"
+                                    >
+                                      <h1>ĐĂNG KÝ NHANH</h1>
+                                      <p>
+                                        Đăng ký với chúng tôi ngay để luyện tập
+                                        theo cách của bạn
+                                      </p>
+                                      <div class="signup-contact">
+                                        <span
+                                          ><i
+                                            class="fas fa-phone-alt"
+                                          ></i></span
+                                        >+84 0943002294
+                                      </div>
+                                      <div class="signup-contact">
+                                        <span
+                                          ><i class="fas fa-envelope"></i></span
+                                        >ntminh181294@gmail.com
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="col-lg-6 col-md-12 col-sm-12 signup-right"
+                                    >
+                                      <button
+                                        type="button"
+                                        class="close"
+                                        data-dismiss="modal"
+                                      >
+                                        &times;
+                                      </button>
+                                      <div class="signup-content">
+                                        <input
+                                          type="text"
+                                          placeholder="Họ và tên"
+                                          class="input-box"
+                                        />
+                                        <input
+                                          type="email"
+                                          placeholder="Email"
+                                          class="input-box"
+                                        />
+                                        <input
+                                          type="number"
+                                          placeholder="Số điện thoại"
+                                          class="input-box"
+                                        />
+                                        <input
+                                          type="text"
+                                          placeholder="Địa chỉ"
+                                          class="input-box"
+                                        />
+                                        <button class="signup-btn">
+                                          ĐĂNG KÝ
+                                        </button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nav-breadcrumb">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="indext.html">Trang chủ</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a href="shopping-bag.html">Giò hàng</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Thanh toán
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- ------header end------ -->
+      <!-- checkout content start -->
+      <section class="checkout-content">
+        <div class="checkout-container">
+          <!-- checkout-upper start -->
+          <div class="checkout-upper">
+            <button
+              class="btn btn-link collapsed"
+              data-toggle="collapse"
+              data-target="#collapseOne"
+              aria-expanded="false"
+              aria-controls="collapseOne"
+            >
+              Bạn đã có tài khoản?<span>Bấm vào đây để đăng nhập</span>
+              <i class="fa" aria-hidden="true"></i>
+            </button>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
+              <div class="log-in">
+                <div class="row">
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h5>Email<span>*</span></h5>
+                    <input type="email" />
+                  </div>
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h5>Mật khẩu<span>*</span></h5>
+                    <input type="text" />
+                  </div>
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <input type="checkbox" />
+                    <a href="#"><button>ĐĂNG NHẬP</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- checkout-upper end -->
+          <!-- checkout-lower start -->
+          <div class="checkout-lower">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="checkout-lower-left">
+                  <h1>Đăng ký</h1>
+                  <div class="name">
+                    <div class="first-name">
+                      <h5>Tên<span>*</span></h5>
+                      <input type="text" />
+                    </div>
+                    <div class="last-name">
+                      <h5>Họ<span>*</span></h5>
+                      <input type="text" />
+                    </div>
+                  </div>
+                  <div class="sign-up-form">
+                    <h5>Địa chỉ nhận hàng<span>*</span></h5>
+                    <input type="text" />
+                  </div>
+                  <div class="sign-up-form">
+                    <h5>Tỉnh / Thành phố<span>*</span></h5>
+                    <select name="cities">
+                      <option value="blank"></option>
+                      <option value="An Giang">An Giang</option>
+                      <option value="Bà Rịa - Vũng Tàu">
+                        Bà Rịa - Vũng Tàu
+                      </option>
+                      <option value="Bắc Giang">Bắc Giang</option>
+                      <option value="Bắc Kạn">Bắc Kạn</option>
+                      <option value="Bạc Liêu">Bạc Liêu</option>
+                      <option value="Bắc Ninh">Bắc Ninh</option>
+                      <option value="Bến Tre">Bến Tre</option>
+                      <option value="Bình Định">Bình Định</option>
+                      <option value="Bình Dương">Bình Dương</option>
+                      <option value="Bình Phước">Bình Phước</option>
+                      <option value="Bình Thuận">Bình Thuận</option>
+                      <option value="Bình Thuận">Bình Thuận</option>
+                      <option value="Cà Mau">Cà Mau</option>
+                      <option value="Cao Bằng">Cao Bằng</option>
+                      <option value="Đắk Lắk">Đắk Lắk</option>
+                      <option value="Đắk Nông">Đắk Nông</option>
+                      <option value="Điện Biên">Điện Biên</option>
+                      <option value="Đồng Nai">Đồng Nai</option>
+                      <option value="Đồng Tháp">Đồng Tháp</option>
+                      <option value="Đồng Tháp">Đồng Tháp</option>
+                      <option value="Gia Lai">Gia Lai</option>
+                      <option value="Hà Giang">Hà Giang</option>
+                      <option value="Hà Nam">Hà Nam</option>
+                      <option value="Hà Tĩnh">Hà Tĩnh</option>
+                      <option value="Hải Dương">Hải Dương</option>
+                      <option value="Hậu Giang">Hậu Giang</option>
+                      <option value="Hòa Bình">Hòa Bình</option>
+                      <option value="Hưng Yên">Hưng Yên</option>
+                      <option value="Khánh Hòa">Khánh Hòa</option>
+                      <option value="Kiên Giang">Kiên Giang</option>
+                      <option value="Kon Tum">Kon Tum</option>
+                      <option value="Lai Châu">Lai Châu</option>
+                      <option value="Lâm Đồng">Lâm Đồng</option>
+                      <option value="Lạng Sơn">Lạng Sơn</option>
+                      <option value="Lào Cai">Lào Cai</option>
+                      <option value="Long An">Long An</option>
+                      <option value="Nam Định">Nam Định</option>
+                      <option value="Nghệ An">Nghệ An</option>
+                      <option value="Ninh Bình">Ninh Bình</option>
+                      <option value="Ninh Thuận">Ninh Thuận</option>
+                      <option value="Phú Thọ">Phú Thọ</option>
+                      <option value="Quảng Bình">Quảng Bình</option>
+                      <option value="Quảng Bình">Quảng Bình</option>
+                      <option value="Quảng Ngãi">Quảng Ngãi</option>
+                      <option value="Quảng Ninh">Quảng Ninh</option>
+                      <option value="Quảng Trị">Quảng Trị</option>
+                      <option value="Sóc Trăng">Sóc Trăng</option>
+                      <option value="Sơn La">Sơn La</option>
+                      <option value="Tây Ninh">Tây Ninh</option>
+                      <option value="Thái Bình">Thái Bình</option>
+                      <option value="Thái Nguyên">Thái Nguyên</option>
+                      <option value="Thanh Hóa">Thanh Hóa</option>
+                      <option value="Thừa Thiên Huế">Thừa Thiên Huế</option>
+                      <option value="Tiền Giang">Tiền Giang</option>
+                      <option value="Trà Vinh">Trà Vinh</option>
+                      <option value="Tuyên Quang">Tuyên Quang</option>
+                      <option value="Vĩnh Long">Vĩnh Long</option>
+                      <option value="Vĩnh Phúc">Vĩnh Phúc</option>
+                      <option value="Yên Bái">Yên Bái</option>
+                      <option value="Phú Yên">Phú Yên</option>
+                      <option value="Tp.Cần Thơ">Tp.Cần Thơ</option>
+                      <option value="Tp.Đà Nẵng">Tp.Đà Nẵng</option>
+                      <option value="Tp.Hải Phòng">Tp.Hải Phòng</option>
+                      <option value="Tp.Hà Nội">Tp.Hà Nội</option>
+                      <option value="TP  HCM">TP.HCM</option>
+                    </select>
+                  </div>
+                  <div class="sign-up-form">
+                    <h5>Quận / Huyện<span>*</span></h5>
+                    <select name="province">
+                      <option value="blank"></option>
+                      <option value="Ba Đình">Ba Đình</option>
+                      <option value="Bắc Từ Liêm">Bắc Từ Liêm</option>
+                      <option value="Cầu Giấy">Cầu Giấy</option>
+                      <option value="Đống Đa">Đống Đa</option>
+                      <option value="Hà Đông">Hà Đông</option>
+                      <option value="Hai Bà Trưng">Hai Bà Trưng</option>
+                      <option value="Hoàn Kiếm">Hoàn Kiếm</option>
+                      <option value="Hoàng Mai">Hoàng Mai</option>
+                      <option value="Long Biên">Long Biên</option>
+                      <option value="Nam Từ Liêm">Nam Từ Liêm</option>
+                      <option value="Tây Hồ">Tây Hồ</option>
+                      <option value="Thanh Xuân">Thanh Xuân</option>
+                      <option value="Ba Vì">Ba Vì</option>
+                      <option value="Chương Mỹ">Chương Mỹ</option>
+                      <option value="Đan Phượng">Đan Phượng</option>
+                      <option value="Đông Anh">Đông Anh</option>
+                      <option value="Gia Lâm">Gia Lâm</option>
+                      <option value="Hoài Đức">Hoài Đức</option>
+                      <option value="Mê Linh">Mê Linh</option>
+                      <option value="Mỹ Đức">Mỹ Đức</option>
+                      <option value="Phú Xuyên">Phú Xuyên</option>
+                      <option value="Phúc Thọ">Phúc Thọ</option>
+                      <option value="Quốc Oai">Quốc Oai</option>
+                      <option value="Sóc Sơn">Sóc Sơn</option>
+                      <option value="Thạch Thất">Thạch Thất</option>
+                      <option value="Thanh Oai">Thanh Oai</option>
+                      <option value="Thanh Trì">Thanh Trì</option>
+                      <option value="Thường Tín">Thường Tín</option>
+                      <option value="Ứng Hòa">Ứng Hòa</option>
+                    </select>
+                  </div>
+                  <div class="sign-up-form">
+                    <h5>Số điện thoại<span>*</span></h5>
+                    <input type="tel" />
+                  </div>
+                  <div class="sign-up-form">
+                    <h5>Email<span>*</span></h5>
+                    <input type="email" />
+                  </div>
+                  <div class="sign-up-form">
+                    <h5>Mật khẩu<span>*</span></h5>
+                    <input type="password" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="checkout-lower-right">
+                  <h1>Phương thức thanh toán</h1>
+                  <div class="payment-one">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Thẻ Tín dụng / Ghi nợ
+                      <i class="fa" aria-hidden="true"></i>
+                    </button>
+                    <div
+                      id="collapseTwo"
+                      class="collapse"
+                      aria-labelledby="collapseTwo"
+                    >
+                      <p>Chọn thẻ</p>
+                      <div class="credit-card">
+                        <button
+                          type="button"
+                          class="btn btn-info btn-lg"
+                          data-toggle="modal"
+                          data-target="#myCard"
+                        >
+                          + Thẻ khác
+                        </button>
+                        <div class="modal fade" id="myCard" role="dialog">
+                          <div
+                            class="modal-dialog modal-md modal-dialog-centered"
+                          >
+                            <div class="modal-content">
+                              <button
+                                type="button"
+                                class="close"
+                                data-dismiss="modal"
+                              >
+                                &times;
+                              </button>
+                              <h1>Thêm Thẻ Tín Dụng/Ghi Nợ</h1>
+                              <input
+                                type="text"
+                                placeholder="Họ và tên chủ thẻ"
+                              />
+                              <div class="card-selection">
+                                <input
+                                  type="text"
+                                  placeholder="Số thẻ tín dụng / Ghi nợ"
+                                />
+                                <img
+                                  src="./image/creditcard 1.png"
+                                  alt="creditcard"
+                                />
+                                <img
+                                  src="./image/creditcard 2.png"
+                                  alt="creditcard"
+                                />
+                                <img
+                                  src="./image/creditcard 3.png"
+                                  alt="creditcard"
+                                />
+                                <img
+                                  src="./image/creditcard 4.png"
+                                  alt="creditcard"
+                                />
+                              </div>
+                              <div class="date">
+                                <div class="row">
+                                  <div
+                                    class="col-lg-6 col-md-12 col-sm-12 coupon"
+                                  >
+                                    <h5>Ngày Hết Hạn</h5>
+                                    <input type="date" />
+                                  </div>
+                                  <div
+                                    class="col-lg-6 col-md-12 col-sm-12 coupon"
+                                  >
+                                    <h5>CVV</h5>
+                                    <input type="number" placeholder="000" />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="customer-address">
+                                <input
+                                  type="text"
+                                  placeholder="Số 22 Thành Công"
+                                />
+                              </div>
+                              <p>
+                                Chúng tôi hợp tác với CyberSouce, công ty thuộc
+                                tổ chức thẻ VISA, nhằm đảm bảo thông tin thẻ Tín
+                                dụng/Ghi nợ của bạn luôn được bảo mật và an
+                                toàn. Chúng tôi không có quyền truy cập vào bất
+                                cứ thông tin nào.
+                              </p>
+                              <div class="credit-button">
+                                <button
+                                  type="button"
+                                  class="return"
+                                  data-dismiss="modal"
+                                >
+                                  TRỞ LẠI
+                                </button>
+                                <a href="#"><button>HOÀN THÀNH</button></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="payment-two">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Thanh toán khi nhận hàng
+                      <i class="fa" aria-hidden="true"></i>
+                    </button>
+                    <div
+                      id="collapseThree"
+                      class="collapse"
+                      aria-labelledby="collapseThree"
+                    >
+                      <p>Cash on Delivery</p>
+                      <input type="checkbox" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- checkout-lower end -->
+          <!-- checkout-bill start -->
+          <div class="bill">
+            <h1>Chi tiết hóa đơn</h1>
+            <div class="bill-content">
+              <div class="bill-content-upper">
+                <h5>Sản phẩm</h5>
+                <h5>Giá sản phẩm</h5>
+                <p>Giày thể thao</p>
+                <p>₫699.000</p>
+              </div>
+              <hr />
+              <div class="bill-content-lower">
+                <h5>Tổng giá tiền</h5>
+                <p>₫699.000</p>
+              </div>
+            </div>
+            <a href="#"><button>ĐẶT HÀNG</button></a>
+          </div>
+          <!-- checkout-bill end -->
+        </div>
+      </section>
+      <!-- checkout content end -->
+      <!-- footer start -->
+      <footer>
+        <div class="footer-container">
+          <div class="footer-contact">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12 footer-social">
+                <h1>LIÊN HỆ:</h1>
+                <div class="social-block">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="social-block">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="social-block">
+                  <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+                <div class="social-block">
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 footer-email">
+                <input type="email" placeholder="Email....." />
+                <a href="#"
+                  ><button class="button--style1 button--footer">
+                    Đăng ký
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="footer-content">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-12 footer-about">
+                <h1>VỀ CHÚNG TÔI</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </p>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12 footer-news">
+                <h1>HƯỚNG DẪN & CHÍNH SÁCH</h1>
+                <a href="#">Hướng dẫn mua hàng</a>
+                <a href="#">Thẻ Thành Viên</a>
+                <a href="#">Chính sách đổi trả & hoàn tiền</a>
+                <a href="#">Chính sách thanh toán</a>
+                <a href="#">Chính sách vận chuyển</a>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12 footer-links">
+                <h1>CÁC LINK KHÁC</h1>
+                <a href="#">Giới thiệu</a>
+                <a href="#">Dịch vụ</a>
+                <a href="#">Blog</a>
+                <a href="#">Cửa hàng</a>
+                <a href="#">Liên hệ</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <p>Copyright @2021 | Site design by</p>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end -->
+      <a
+        id="back-to-top"
+        href="#"
+        class="btn btn-light btn-lg back-to-top"
+        role="button"
+        ><i class="fas fa-chevron-up"></i
+      ></a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="share-script.js"></script>
+  </body>
+</html>

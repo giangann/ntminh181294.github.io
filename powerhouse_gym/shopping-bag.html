@@ -14,7 +14,6 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="bag-style.css" />
     <link rel="shortcut icon" href="./image/logo-b.png" />
     <title>Shopping bag</title>
@@ -221,10 +220,121 @@
       <!-- Shopping-content start -->
       <section class="Shopping-content">
         <div class="Shopping-content-container">
-          
+          <div class="shopping-title">
+            <div class="hidden"></div>
+            <h5>Sản phẩm</h5>
+            <h5>Giá</h5>
+            <h5>Số lượng</h5>
+            <h5>Tổng cộng</h5>
+            <div></div>
+          </div>
+          <hr />
+          <div class="Shopping-list" id="delete">
+            <div class="product-img">
+              <img src="./image/Product 1.png" />
+            </div>
+            <h5>Giày thể thao</h5>
+            <p>₫699.000</p>
+            <div class="product-quantity"><p>1</p></div>
+            <p>₫699.000</p>
+            <div class="delete-product">
+              <button onclick="deleteProduct()">x</button>
+            </div>
+          </div>
+          <hr />
+          <div class="shopping-lower">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12 coupon">
+                <input type="text" placeholder="Mã giảm giá" />
+                <button>MÃ GIẢM GIÁ</button>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 checkout">
+                <a href="checkout.html"><button>MUA HÀNG</button></a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <!-- Shopping-content end -->
+      <!-- footer start -->
+      <footer>
+        <div class="footer-container">
+          <div class="footer-contact">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12 footer-social">
+                <h1>LIÊN HỆ:</h1>
+                <div class="social-block">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="social-block">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="social-block">
+                  <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+                <div class="social-block">
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 footer-email">
+                <input type="email" placeholder="Email....." />
+                <a href="#"
+                  ><button class="button--style1 button--footer">
+                    Đăng ký
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="footer-content">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-12 footer-about">
+                <h1>VỀ CHÚNG TÔI</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </p>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12 footer-news">
+                <h1>HƯỚNG DẪN & CHÍNH SÁCH</h1>
+                <a href="#">Hướng dẫn mua hàng</a>
+                <a href="#">Thẻ Thành Viên</a>
+                <a href="#">Chính sách đổi trả & hoàn tiền</a>
+                <a href="#">Chính sách thanh toán</a>
+                <a href="#">Chính sách vận chuyển</a>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12 footer-links">
+                <h1>CÁC LINK KHÁC</h1>
+                <a href="#">Giới thiệu</a>
+                <a href="#">Dịch vụ</a>
+                <a href="#">Blog</a>
+                <a href="#">Cửa hàng</a>
+                <a href="#">Liên hệ</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <p>Copyright @2021 | Site design by</p>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end -->
+      <a
+        id="back-to-top"
+        href="#"
+        class="btn btn-light btn-lg back-to-top"
+        role="button"
+        ><i class="fas fa-chevron-up"></i
+      ></a>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="share-script.js"></script>
   </body>
 </html>
