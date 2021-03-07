@@ -403,26 +403,201 @@ input:focus {
   padding: 70px 100px 70px 100px;
 }
 
-.checkout-upper {
-  /* background-color: aqua; */
+/* checkout-upper start */
+
+.checkout-upper .btn-link {
+  border: none;
+  font-weight: bold;
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e5e5e5;
+  text-decoration: none;
 }
 
-.checkout-upper .collapsed {
-  background-color: #e5e5e5;
-  width: 100%;
-  text-align: start;
-  padding-left: 20px;
+.btn-title span {
+  color: #e10000;
+  margin-left: 10px;
 }
+
 
 [data-toggle="collapse"] .fa:before {
   content: "\f139";
+  color: #e10000;
+  position: relative;
+  top: 4px;
 }
 
 [data-toggle="collapse"].collapsed .fa:before {
   content: "\f13a";
-
+color: #e10000;
+position: relative;
+top: 4px;
 }
 
+.checkout-upper .collapse {
+  box-shadow: 0px 3px 3px 3px #e5e5e5;
+  margin-top: 35px;
+  min-height: 213px;
+  padding: 50px 45px 30px 45px;
+}
+
+.log-in h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.log-in span {
+  color: #e10000;
+}
+
+.type-in input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #959595;
+}
+
+.save-acc {
+  display: flex;
+  flex-direction: row;
+}
+
+.save-acc input {
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
+}
+
+.log-in button {
+  width: 180px;
+  height: 50px;
+  background-color: #e10000;
+  color: white;
+  border: none;
+}
+
+.forget-pw {
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.forget-pw a {
+  color: #e10000;
+  text-decoration: none;
+}
+/* checkout-upper end */
+.checkout-lower {
+  margin-top: 50px;
+}
+
+.checkout-lower-left h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.first-name, .last-name {
+  width: 47%;
+}
+
+.name h5{
+font-weight: bold;
+font-size: 16px;
+}
+
+.name span {
+  color: #e10000;
+}
+
+.name input {
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+}
+
+.sign-up-form {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up-form h5{
+  font-weight: bold;
+  font-size: 16px;
+  }
+
+  .sign-up-form span {
+    color: #e10000;
+  }
+
+  .sign-up-form input{
+height: 50px;
+padding: 20px;
+  }
+
+  .sign-up-form select {
+    height: 50px;
+  }
+
+.checkout-lower-right h1{
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 50px;
+}
+
+.checkout-lower-right .btn-link {
+  background-color: #e5e5e5;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.payment-one .collapse {
+  padding: 10px 0 10px 15px;
+}
+
+.credit-card .btn {
+  background-color: white;
+  border-radius: 0;
+  border: 1px solid #959595;
+  color: #959595;
+}
+
+.credit-card .btn:hover {
+  border: 1px solid #e10000;
+  color: #e10000;
+}
+
+@media (max-width: 991px) {
+.type-in:nth-child(2) {
+  margin-top: 10px;
+}
+
+.save-acc {
+  margin-top: 10px;
+}
+}
+
+@media (max-width: 579px) {
+  .checkout-container {
+    padding: 70px 50px 70px 50px;
+  }
+
+  .pick-card {
+    display: none;
+  }
+}
 
 
 /* check out end */

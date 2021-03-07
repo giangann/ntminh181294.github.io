@@ -232,26 +232,32 @@
               aria-expanded="false"
               aria-controls="collapseOne"
             >
-              Bạn đã có tài khoản?<span>Bấm vào đây để đăng nhập</span>
+            <div class="btn-title">
+              Bạn đã có tài khoản?<span>Bấm vào đây để đăng nhập</span></div>
               <i class="fa" aria-hidden="true"></i>
             </button>
             <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
               <div class="log-in">
                 <div class="row">
-                  <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="col-lg-4 col-md-12 col-sm-12 type-in">
                     <h5>Email<span>*</span></h5>
                     <input type="email" />
                   </div>
-                  <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="col-lg-4 col-md-12 col-sm-12 type-in">
                     <h5>Mật khẩu<span>*</span></h5>
                     <input type="text" />
                   </div>
                   <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="save-acc">
                     <input type="checkbox" />
+                    <h5>Lưu tài khoản</h5>
+                  </div>
                     <a href="#"><button>ĐĂNG NHẬP</button></a>
                   </div>
+                </div></div>
+                <div class="forget-pw">
+                  <a href="#">Quên mật khẩu?</a>
                 </div>
-              </div>
             </div>
           </div>
           <!-- checkout-upper end -->
@@ -416,7 +422,10 @@
                       class="collapse"
                       aria-labelledby="collapseTwo"
                     >
-                      <p>Chọn thẻ</p>
+                    <div class="row">
+                      <div class="col-lg-3 col-md-3 col-sm-3 pick-card">
+                      <p>Chọn thẻ</p></div>
+                      <div class="col-lg-9 col-md-9 col-sm-9">
                       <div class="credit-card">
                         <button
                           type="button"
@@ -468,13 +477,13 @@
                               <div class="date">
                                 <div class="row">
                                   <div
-                                    class="col-lg-6 col-md-12 col-sm-12 coupon"
+                                    class="col-lg-6 col-md-12 col-sm-12"
                                   >
                                     <h5>Ngày Hết Hạn</h5>
                                     <input type="date" />
                                   </div>
                                   <div
-                                    class="col-lg-6 col-md-12 col-sm-12 coupon"
+                                    class="col-lg-6 col-md-12 col-sm-12"
                                   >
                                     <h5>CVV</h5>
                                     <input type="number" placeholder="000" />
@@ -507,9 +516,8 @@
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div></div></div>
                     </div>
-                  </div>
                   <div class="payment-two">
                     <button
                       class="btn btn-link collapsed"
@@ -526,14 +534,21 @@
                       class="collapse"
                       aria-labelledby="collapseThree"
                     >
-                      <p>Cash on Delivery</p>
-                      <input type="checkbox" />
-                    </div>
-                  </div>
+                    <div class="row">
+                      <div
+                      class="col-lg-5 col-md-5 col-sm-5"
+                    >
+                      <p>Cash on Delivery</p></div>
+                      <div
+                      class="col-lg-7 col-md-7 col-sm-7"
+                    >
+                      <input type="checkbox" /></div>
+                    </div></div>
+           
                 </div>
               </div>
             </div>
-          </div>
+          </div></div></div>
           <!-- checkout-lower end -->
           <!-- checkout-bill start -->
           <div class="bill">
