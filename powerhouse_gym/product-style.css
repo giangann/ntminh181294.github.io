@@ -160,11 +160,11 @@ input:focus {
 .nav-link {
   font-weight: bold;
   color: black;
+  transition: 0.5s;
 }
 
 .nav-link:hover {
   color: #e10000;
-  transition: 0.5s;
 }
 
 .nav-item:nth-child(5) .nav-link {
@@ -603,11 +603,11 @@ input:focus {
 
 .product-similar .card {
   border: none;
+  transition: 0.5s;
 }
 
 .product-similar .card:hover {
   box-shadow: -1px 4px 10px 5px rgba(0, 0, 0, 0.32);
-  transition: 0.5s;
   transform: translate(0, -5px);
 }
 
@@ -701,6 +701,7 @@ input:focus {
 
 .popular-items {
   border: none;
+  transition: 0.5s;
 }
 
 .popular-items .card-body a {
@@ -714,7 +715,6 @@ input:focus {
 
 .popular-items:hover {
   box-shadow: -1px 4px 10px 5px rgba(0, 0, 0, 0.32);
-  transition: 0.5s;
   transform: translate(0, -5px);
 }
 
@@ -800,12 +800,12 @@ input:focus {
   font-size: 24px;
   font-weight: bold;
   color: white;
+  transition: 0.5s;
 }
 
 .button--footer:hover {
   background-color: white;
   color: #e10000;
-  transition: 0.5s;
 }
 
 .footer-content {

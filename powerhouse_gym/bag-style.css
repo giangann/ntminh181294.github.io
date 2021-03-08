@@ -160,11 +160,11 @@ input:focus {
 .nav-link {
   font-weight: bold;
   color: black;
+  transition: 0.5s;
 }
 
 .nav-link:hover {
   color: #e10000;
-  transition: 0.5s;
 }
 
 .nav-item:nth-child(7) .nav-link {
@@ -633,12 +633,12 @@ input:focus {
   font-size: 24px;
   font-weight: bold;
   color: white;
+  transition: 0.5s;
 }
 
 .button--footer:hover {
   background-color: white;
   color: #e10000;
-  transition: 0.5s;
 }
 
 .footer-content {

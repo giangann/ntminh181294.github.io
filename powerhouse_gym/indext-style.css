@@ -178,11 +178,11 @@ input:focus {
 .nav-link {
   font-weight: bold;
   color: white;
+  transition: 0.5s;
 }
 
 .nav-link:hover {
   color: #e10000;
-  transition: 0.5s;
 }
 
 /* sign-up start */
@@ -404,25 +404,25 @@ input:focus {
 .button--more {
   background-color: #e10000;
   color: white;
+  transition: 0.5s;
 }
 
 .button--more:hover {
   background-color: transparent;
   color: #e10000;
   border: 2px solid #e10000;
-  transition: 0.5s;
 }
 
 .button--buy {
   color: #e10000;
   margin-left: 15px;
+  transition: 0.5s;
 }
 
 .button--buy:hover {
   background-color: transparent;
   color: white;
   border: 2px solid white;
-  transition: 0.5s;
 }
 
 .header-button {
@@ -515,11 +515,11 @@ input:focus {
 
 .introduction-right img {
   width: 100%;
+  transition: 0.5s;
 }
 
 .introduction-right img:hover {
   box-shadow: -1px 4px 10px 5px rgba(0, 0, 0, 0.32);
-  transition: 0.5s;
   transform: translate(0, -5px);
 }
 
@@ -826,25 +826,25 @@ input:focus {
 .package-left .button--buy {
   margin-top: 99px;
   background-color: #e10000;
+  transition: 0.5s;
 }
 
 .package-left .button--buy:hover {
   background-color: white;
   border: 2px solid #e10000;
   color: #e10000;
-  transition: 0.5s;
 }
 
 .package-right .button--buy {
   margin-top: 41px;
   background-color: transparent;
   border: 2px solid #e10000;
+  transition: 0.5s;
 }
 
 .package-right .button--buy:hover {
   background-color: #e10000;
   color: white;
-  transition: 0.5s;
 }
 
 @media (max-width: 579px) {
@@ -889,12 +889,16 @@ input:focus {
   font-size: 24px;
   border: 2px solid #e10000;
   color: #e10000;
+  transition: 0.5s;
+}
+
+.trainers-title a {
+  text-decoration: none;
 }
 
 .button--trainers:hover {
   background-color: #e10000;
   color: white;
-  transition: 0.5s;
 }
 
 .trainers-card .card-body {
@@ -1048,10 +1052,13 @@ input:focus {
   bottom: 5px;
 }
 
+.products-list .card {
+  transition: 0.5s;
+}
+
 .products-list .card:hover {
   box-shadow: -1px 4px 10px 5px rgba(0, 0, 0, 0.32);
-  transition: 0.5s;
-  transform: translate(0, -5px);
+  transform: translate(0, -10px);
 }
 
 .items:nth-child(5),
@@ -1280,12 +1287,12 @@ input:focus {
   font-size: 24px;
   font-weight: bold;
   color: white;
+  transition: 0.5s;
 }
 
 .button--footer:hover {
   background-color: white;
   color: #e10000;
-  transition: 0.5s;
 }
 
 .footer-content {
