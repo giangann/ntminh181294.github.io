@@ -238,22 +238,24 @@
               <i class="fa" aria-hidden="true"></i>
             </button>
             <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
-              <div class="log-in">
-                <div class="row">
-                  <div class="col-lg-4 col-md-12 col-sm-12 type-in">
-                    <h5>Email<span>*</span></h5>
-                    <input type="email" />
-                  </div>
-                  <div class="col-lg-4 col-md-12 col-sm-12 type-in">
-                    <h5>Mật khẩu<span>*</span></h5>
-                    <input type="text" />
-                  </div>
-                  <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="save-acc">
-                      <input type="checkbox" />
-                      <h5>Lưu tài khoản</h5>
+              <div class="login-wrapper">
+                <div class="log-in">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12 type-in">
+                      <h5>Email<span>*</span></h5>
+                      <input type="email" />
                     </div>
-                    <a href="#"><button>ĐĂNG NHẬP</button></a>
+                    <div class="col-lg-4 col-md-12 col-sm-12 type-in">
+                      <h5>Mật khẩu<span>*</span></h5>
+                      <input type="text" />
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                      <div class="save-acc">
+                        <input type="checkbox" />
+                        <h5>Lưu tài khoản</h5>
+                      </div>
+                      <a href="#"><button>ĐĂNG NHẬP</button></a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -460,30 +462,32 @@
                                       type="text"
                                       placeholder="Số thẻ tín dụng / Ghi nợ"
                                     />
-                                    <img
-                                      src="./image/creditcard 1.png"
-                                      alt="creditcard"
-                                    />
-                                    <img
-                                      src="./image/creditcard 2.png"
-                                      alt="creditcard"
-                                    />
-                                    <img
-                                      src="./image/creditcard 3.png"
-                                      alt="creditcard"
-                                    />
-                                    <img
-                                      src="./image/creditcard 4.png"
-                                      alt="creditcard"
-                                    />
+                                    <div class="brand">
+                                      <img
+                                        src="./image/creditcard 1.png"
+                                        alt="creditcard"
+                                      />
+                                      <img
+                                        src="./image/creditcard 2.png"
+                                        alt="creditcard"
+                                      />
+                                      <img
+                                        src="./image/creditcard 3.png"
+                                        alt="creditcard"
+                                      />
+                                      <img
+                                        src="./image/creditcard 4.png"
+                                        alt="creditcard"
+                                      />
+                                    </div>
                                   </div>
                                   <div class="date">
                                     <div class="row">
-                                      <div class="col-lg-6 col-md-12 col-sm-12">
+                                      <div class="col-lg-6 col-md-12 col-sm-12 date-input1">
                                         <h5>Ngày Hết Hạn</h5>
                                         <input type="date" />
                                       </div>
-                                      <div class="col-lg-6 col-md-12 col-sm-12">
+                                      <div class="col-lg-6 col-md-12 col-sm-12 date-input2">
                                         <h5>CVV</h5>
                                         <input
                                           type="number"
@@ -506,13 +510,6 @@
                                     truy cập vào bất cứ thông tin nào.
                                   </p>
                                   <div class="credit-button">
-                                    <button
-                                      type="button"
-                                      class="return"
-                                      data-dismiss="modal"
-                                    >
-                                      TRỞ LẠI
-                                    </button>
                                     <a href="#"><button>HOÀN THÀNH</button></a>
                                   </div>
                                 </div>
@@ -522,29 +519,29 @@
                         </div>
                       </div>
                     </div>
-                    <div class="payment-two">
-                      <button
-                        class="btn btn-link collapsed"
-                        data-toggle="collapse"
-                        data-target="#collapseThree"
-                        aria-expanded="false"
-                        aria-controls="collapseThree"
-                      >
-                        Thanh toán khi nhận hàng
-                        <i class="fa" aria-hidden="true"></i>
-                      </button>
-                      <div
-                        id="collapseThree"
-                        class="collapse"
-                        aria-labelledby="collapseThree"
-                      >
-                        <div class="row">
-                          <div class="col-lg-5 col-md-5 col-sm-5">
-                            <p>Cash on Delivery</p>
-                          </div>
-                          <div class="col-lg-7 col-md-7 col-sm-7">
-                            <input type="checkbox" />
-                          </div>
+                  </div>
+                  <div class="payment-two">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Thanh toán khi nhận hàng
+                      <i class="fa" aria-hidden="true"></i>
+                    </button>
+                    <div
+                      id="collapseThree"
+                      class="collapse"
+                      aria-labelledby="collapseThree"
+                    >
+                      <div class="row">
+                        <div class="col-lg-5 col-md-5 col-sm-5">
+                          <p>Cash on Delivery</p>
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <input type="checkbox" />
                         </div>
                       </div>
                     </div>
