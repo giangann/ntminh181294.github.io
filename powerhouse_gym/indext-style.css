@@ -327,7 +327,7 @@ input:focus {
 
 @media (max-width: 991px) {
   .header-lower {
-    padding: 10px 20px 10px 20px;
+    padding: 10px 10px 10px 10px;
   }
 
   .header-nav {
@@ -361,7 +361,7 @@ input:focus {
 
 @media (max-width: 579px) {
   .modal {
-    padding: 0 50px 0 50px;
+    padding: 0 20px 0 20px;
   }
 }
 
@@ -429,13 +429,15 @@ input:focus {
   margin-top: 50px;
 }
 
+@media (max-width: 991px) {
+  .header-banner {
+    padding: 0 20px 0 20px;
+  }
+}
+
 @media (max-width: 579px) {
   .button--buy {
     margin: 0 0 0 0;
-  }
-
-  .header-banner {
-    padding: 0 50px 0 50px;
   }
 }
 
@@ -460,7 +462,7 @@ input:focus {
 .introduction-perk {
   border: 1px solid #c4c4c4;
   max-width: 590px;
-  padding: 30px 30px 30px 30px;
+  padding: 16px 30px 16px 30px;
 }
 
 .btn-link {
@@ -541,11 +543,8 @@ input:focus {
     left: 0;
     margin-top: 50px;
   }
-}
-
-@media (max-width: 579px) {
   .introduction-container {
-    padding: 0 50px 0 50px;
+    padding: 0 20px 0 20px;
   }
 }
 
@@ -652,21 +651,12 @@ input:focus {
   .classesCarousel {
     bottom: 200px;
   }
-}
-
-@media (max-width: 767px) {
-  .classes-card {
-    margin-top: 15px;
-  }
-}
-
-@media (max-width: 579px) {
   .classes-firstwords p,
   .classes-firstwords h5 {
-    padding: 0 50px 0 50px;
+    padding: 0 20px 0 20px;
   }
   .classesCarousel {
-    padding: 0 50px 70px 50px;
+    padding: 0 20px 70px 20px;
     bottom: 100px;
   }
 
@@ -709,13 +699,6 @@ input:focus {
     display: none;
   }
 }
-/* 
-@media (max-width: 579px) {
-  .achievement-container {
-    padding: 0 50px 0 50px;
-  }
-} */
-
 /* achievement end */
 /* vipdeal start */
 .vipdeal-container {
@@ -847,16 +830,18 @@ input:focus {
   color: white;
 }
 
-@media (max-width: 579px) {
+@media (max-width: 991px) {
   .vipdeal-firstwords p,
   .vipdeal-firstwords h5 {
-    padding: 0 50px 0 50px;
+    padding: 0 20px 0 20px;
   }
 
   .vipdeal-package .row {
-    padding: 0 50px 70px 50px;
+    padding: 0 35px 70px 35px;
   }
+}
 
+@media (max-width: 579px) {
   .vipdeal-content p {
     font-size: 16px;
   }
@@ -915,7 +900,7 @@ input:focus {
 }
 
 .trainers-card h1 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   color: black;
 }
@@ -926,6 +911,7 @@ input:focus {
 
 .trainers-card h5 {
   color: #e10000;
+  font-size: 16px;
 }
 
 .trainers-card p {
@@ -964,6 +950,9 @@ input:focus {
   .trainers-card {
     margin-top: 15px;
   }
+  .trainers-container {
+    padding: 0 20px 70px 20px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -978,12 +967,6 @@ input:focus {
 
   .trainers-card {
     margin-top: 15px;
-  }
-}
-
-@media (max-width: 579px) {
-  .trainers-container {
-    padding: 0 50px 70px 50px;
   }
 }
 
@@ -1117,6 +1100,9 @@ input:focus {
   .items:nth-child(8) {
     margin-top: 15px;
   }
+  .products-container {
+    padding: 70px 20px 70px 20px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1125,11 +1111,6 @@ input:focus {
   }
 }
 
-@media (max-width: 579px) {
-  .products-container {
-    padding: 70px 50px 70px 50px;
-  }
-}
 /* products end */
 .reviews-container {
   max-width: 1440px;
@@ -1221,9 +1202,9 @@ input:focus {
   margin-left: 15px;
 }
 
-@media (max-width: 579px) {
+@media (max-width: 991px) {
   .reviews-container {
-    padding: 70px 50px 150px 50px;
+    padding: 70px 20px 150px 20px;
   }
 }
 
@@ -1360,6 +1341,13 @@ input:focus {
   .footer-news h1 {
     font-size: 16px;
   }
+  .footer-contact {
+    padding: 75px 20px 45px 20px;
+  }
+
+  .footer-content {
+    padding: 60px 20px 50px 20px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1379,14 +1367,6 @@ input:focus {
 }
 
 @media (max-width: 579px) {
-  .footer-contact {
-    padding: 75px 50px 45px 50px;
-  }
-
-  .footer-content {
-    padding: 60px 50px 50px 50px;
-  }
-
   .footer-email input {
     width: 100%;
   }
