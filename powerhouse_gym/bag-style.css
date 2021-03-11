@@ -154,7 +154,7 @@ input:focus {
   color: #e10000;
 }
 /* search box end*/
-.navbar-nav .nav-item {
+.nav-item {
   margin-left: 15px;
 }
 .nav-link {
@@ -329,7 +329,7 @@ input:focus {
 }
 
 @media (max-width: 1042px) {
-  .navbar-nav .nav-item {
+  .nav-item {
     margin-left: 9px;
   }
 
@@ -341,7 +341,7 @@ input:focus {
 @media (max-width: 991px) {
   .header-lower {
     background-color: black;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 5px 10px 5px;
   }
 
   .header-nav {
@@ -369,6 +369,7 @@ input:focus {
     color: white;
     margin-top: 15px;
   }
+
   .signup-left {
     display: none;
   }
@@ -380,14 +381,12 @@ input:focus {
   .breadcrumb {
     margin: 0;
   }
-}
-
-@media (max-width: 579px) {
   .modal,
   .breadcrumb {
-    padding: 0 50px 0 50px;
+    padding: 0 20px 0 20px;
   }
 }
+
 /* header end */
 /* back to top start */
 .back-to-top {
@@ -398,6 +397,7 @@ input:focus {
   z-index: 3;
 }
 /* back to top end */
+
 /* Shopping-content start */
 .Shopping-content {
   padding: 70px 100px 70px 100px;
@@ -551,19 +551,13 @@ input:focus {
   }
 }
 
-@media (max-width: 767px) {
-  .shopping-title h5,
-  .Shopping-list h5,
-  .Shopping-list p {
-    font-size: 14px;
+@media (max-width: 991px) {
+  .Shopping-content {
+    padding: 70px 20px 70px 20px;
   }
 }
 
 @media (max-width: 579px) {
-  .Shopping-content {
-    padding: 70px 50px 70px 50px;
-  }
-
   .product-quantity {
     text-align: center;
   }
@@ -713,6 +707,13 @@ input:focus {
   .footer-news h1 {
     font-size: 16px;
   }
+  .footer-contact {
+    padding: 75px 20px 45px 20px;
+  }
+
+  .footer-content {
+    padding: 60px 20px 50px 20px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -732,14 +733,6 @@ input:focus {
 }
 
 @media (max-width: 579px) {
-  .footer-contact {
-    padding: 75px 50px 45px 50px;
-  }
-
-  .footer-content {
-    padding: 60px 50px 50px 50px;
-  }
-
   .footer-email input {
     width: 100%;
   }

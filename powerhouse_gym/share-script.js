@@ -13,21 +13,6 @@ AOS.init({
   duration: 1000,
 });
 
-// window.onscroll = function () {
-//   myFunction();
-// };
-
-// const navbar = document.getElementById("sticky-nav");
-// const sticky = navbar.offsetTop;
-
-// function myFunction() {
-//   if (window.pageYOffset >= sticky) {
-//     navbar.classList.add("sticky");
-//   } else {
-//     navbar.classList.remove("sticky");
-//   }
-// }
-
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(this).scrollTop() > 50) {

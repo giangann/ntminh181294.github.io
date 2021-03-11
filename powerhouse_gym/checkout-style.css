@@ -154,7 +154,7 @@ input:focus {
   color: #e10000;
 }
 /* search box end*/
-.navbar-nav .nav-item {
+.nav-item {
   margin-left: 15px;
 }
 .nav-link {
@@ -329,7 +329,7 @@ input:focus {
 }
 
 @media (max-width: 1042px) {
-  .navbar-nav .nav-item {
+  .nav-item {
     margin-left: 9px;
   }
 
@@ -341,7 +341,7 @@ input:focus {
 @media (max-width: 991px) {
   .header-lower {
     background-color: black;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 5px 10px 5px;
   }
 
   .header-nav {
@@ -369,6 +369,7 @@ input:focus {
     color: white;
     margin-top: 15px;
   }
+
   .signup-left {
     display: none;
   }
@@ -380,14 +381,12 @@ input:focus {
   .breadcrumb {
     margin: 0;
   }
-}
-
-@media (max-width: 579px) {
   .modal,
   .breadcrumb {
-    padding: 0 50px 0 50px;
+    padding: 0 20px 0 20px;
   }
 }
+
 /* header end */
 /* back to top start */
 .back-to-top {
@@ -781,7 +780,8 @@ input:focus {
     margin-top: 15px;
   }
 
-  .date-input1,   .date-input2 {
+  .date-input1,
+  .date-input2 {
     padding-right: 15px;
   }
 
@@ -791,30 +791,29 @@ input:focus {
   }
 }
 
-@media (max-width: 579px) {
+@media (max-width: 991px) {
   .checkout-upper {
-    padding: 0 50px 0 50px;
+    padding: 0 20px 0 20px;
   }
 
   .checkout-lower {
-    padding: 50px 50px 70px 50px;
+    padding: 50px 20px 70px 20px;
   }
 
   .bill h1 {
-    padding-left: 50px;
+    padding-left: 20px;
   }
-
   .bill-content {
-    background-color: #e5e5e5;
-    padding: 45px 50px 40px 50px;
+    padding: 45px 20px 40px 20px;
   }
+  .bill button {
+    margin: 70px 0 0 20px;
+  }
+}
 
+@media (max-width: 579px) {
   .pick-card {
     display: none;
-  }
-
-  .bill button {
-    margin: 70px 0 0 50px;
   }
 }
 
@@ -959,6 +958,13 @@ input:focus {
   .footer-news h1 {
     font-size: 16px;
   }
+    .footer-contact {
+    padding: 75px 20px 45px 20px;
+  }
+
+  .footer-content {
+    padding: 60px 20px 50px 20px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -978,14 +984,6 @@ input:focus {
 }
 
 @media (max-width: 579px) {
-  .footer-contact {
-    padding: 75px 50px 45px 50px;
-  }
-
-  .footer-content {
-    padding: 60px 50px 50px 50px;
-  }
-
   .footer-email input {
     width: 100%;
   }
