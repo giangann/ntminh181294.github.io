@@ -712,12 +712,6 @@ input:focus {
   }
 }
 
-@media (max-width: 767px) {
-  .items:nth-child(4) {
-    margin-top: 15px;
-  }
-}
-
 @media (max-width: 579px) {
   .popular-items .card-body {
     align-items: flex-start;

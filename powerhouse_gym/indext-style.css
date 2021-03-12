@@ -1102,12 +1102,6 @@ input:focus {
   }
 }
 
-@media (max-width: 767px) {
-  .items:nth-child(4) {
-    margin-top: 15px;
-  }
-}
-
 /* products end */
 .reviews-container {
   max-width: 1440px;
