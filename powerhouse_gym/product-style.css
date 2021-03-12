@@ -652,7 +652,7 @@ input:focus {
   }
 }
 
-@media (max-width: 579px) {
+@media (max-width: 575px) {
   .items:nth-child(3) {
     display: block;
   }
@@ -938,7 +938,7 @@ input:focus {
   }
 }
 
-@media (max-width: 579px) {
+@media (max-width: 575px) {
   .footer-email input {
     width: 100%;
   }

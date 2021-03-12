@@ -557,7 +557,7 @@ input:focus {
   }
 }
 
-@media (max-width: 579px) {
+@media (max-width: 575px) {
   .product-quantity {
     text-align: center;
   }
@@ -732,7 +732,7 @@ input:focus {
   }
 }
 
-@media (max-width: 579px) {
+@media (max-width: 575px) {
   .footer-email input {
     width: 100%;
   }

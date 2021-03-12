@@ -432,7 +432,7 @@ input:focus {
   }
 }
 
-@media (max-width: 579px) {
+@media (max-width: 575px) {
   .button--buy {
     margin: 0 0 0 0;
   }
@@ -838,7 +838,7 @@ input:focus {
   }
 }
 
-@media (max-width: 579px) {
+@media (max-width: 575px) {
   .vipdeal-content p {
     font-size: 16px;
   }
@@ -1361,7 +1361,7 @@ input:focus {
   }
 }
 
-@media (max-width: 579px) {
+@media (max-width: 575px) {
   .footer-email input {
     width: 100%;
   }
