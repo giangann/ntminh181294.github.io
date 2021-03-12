@@ -426,7 +426,9 @@ input:focus {
 }
 
 .Shopping-content-container hr {
-  border: 1px solid #959595;
+  height: 2px;
+  border: none;
+  background-color: #959595;
 }
 
 .Shopping-list h5 {
