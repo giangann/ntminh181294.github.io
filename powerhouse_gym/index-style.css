@@ -691,6 +691,12 @@ input:focus {
   font-weight: bold;
 }
 
+@media (max-width: 991px) {
+  .achievement-container {
+    padding: 0 20px 0 20px;
+  }
+}
+
 @media (max-width: 767px) {
   .achievement-container {
     display: none;
