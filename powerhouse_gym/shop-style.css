@@ -313,10 +313,6 @@ input:focus {
   font-weight: bold;
 }
 
-.modal {
-  padding: 0 100px 0 100px;
-}
-
 @media (max-width: 1350px) {
   .header-upper {
     display: none;

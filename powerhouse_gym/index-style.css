@@ -299,9 +299,6 @@ input:focus {
   color: #e10000;
 }
 
-.modal {
-  padding: 0 100px 0 100px;
-}
 /* sign-up end */
 
 @media (max-width: 1350px) {
