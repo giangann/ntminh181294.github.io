@@ -718,6 +718,10 @@ input:focus {
   .popular-items .card-body {
     align-items: flex-start;
   }
+
+  .items:nth-child(4) {
+    margin-top: 15px;
+  }
 }
 
 /* products end */

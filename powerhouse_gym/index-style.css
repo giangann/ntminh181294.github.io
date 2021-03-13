@@ -1089,11 +1089,8 @@ input:focus {
     justify-content: space-between;
   }
 
-  .items:nth-child(1),
-  .items:nth-child(2) {
-    margin-bottom: 15px;
-  }
-
+  .items:nth-child(3),
+  .items:nth-child(4),
   .items:nth-child(5),
   .items:nth-child(6),
   .items:nth-child(7),
@@ -1102,6 +1099,12 @@ input:focus {
   }
   .products-container {
     padding: 70px 20px 70px 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .items:nth-child(2) {
+    margin-top: 15px;
   }
 }
 
