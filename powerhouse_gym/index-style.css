@@ -299,9 +299,6 @@ input:focus {
   color: #e10000;
 }
 
-.modal {
-  padding: 0 100px 0 100px;
-}
 /* sign-up end */
 
 @media (max-width: 1350px) {
@@ -458,7 +455,6 @@ input:focus {
 
 .introduction-perk {
   border: 1px solid #c4c4c4;
-  max-width: 590px;
   padding: 16px 30px 16px 30px;
 }
 
@@ -470,6 +466,10 @@ input:focus {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+.btn-link:focus {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
 }
 
 .btn-link i {
@@ -689,6 +689,12 @@ input:focus {
 .achievement-content p {
   font-size: 24;
   font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  .achievement-container {
+    padding: 0 20px 0 20px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1086,11 +1092,8 @@ input:focus {
     justify-content: space-between;
   }
 
-  .items:nth-child(1),
-  .items:nth-child(2) {
-    margin-bottom: 15px;
-  }
-
+  .items:nth-child(3),
+  .items:nth-child(4),
   .items:nth-child(5),
   .items:nth-child(6),
   .items:nth-child(7),
@@ -1099,6 +1102,12 @@ input:focus {
   }
   .products-container {
     padding: 70px 20px 70px 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .items:nth-child(2) {
+    margin-top: 15px;
   }
 }
 

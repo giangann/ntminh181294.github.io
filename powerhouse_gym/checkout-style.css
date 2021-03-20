@@ -313,10 +313,6 @@ input:focus {
   font-weight: bold;
 }
 
-.modal {
-  padding: 0 100px 0 100px;
-}
-
 @media (max-width: 1350px) {
   .header-upper {
     display: none;
@@ -416,6 +412,10 @@ input:focus {
   justify-content: space-between;
   background-color: #e5e5e5;
   text-decoration: none;
+}
+
+.checkout-upper .btn-link:focus {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
 }
 
 .btn-title span {
@@ -566,6 +566,10 @@ input:focus {
   border-radius: 0;
 }
 
+.checkout-lower-right .btn-link:focus {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
 .payment-one .row,
 .payment-two .row {
   padding: 10px 0 10px 15px;
@@ -685,7 +689,9 @@ input:focus {
 }
 
 .bill-content hr {
-  border: 1px solid #e10000;
+  height: 2px;
+  border: none;
+  background-color: #e10000;
 }
 
 .bill-content-upper {
@@ -958,7 +964,7 @@ input:focus {
   .footer-news h1 {
     font-size: 16px;
   }
-    .footer-contact {
+  .footer-contact {
     padding: 75px 20px 45px 20px;
   }
 
