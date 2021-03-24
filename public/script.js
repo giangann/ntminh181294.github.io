@@ -26,5 +26,9 @@ function loadDoc() {
   xhttp.open("GET", "https://faketaxi.herokuapp.com/users", true);
   xhttp.send();
 }
-
 loadDoc();
+
+function productDelete(ctl) {
+  $(ctl).parents("tr").remove();
+}
+productDelete(ctl);
