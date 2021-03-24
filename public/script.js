@@ -14,7 +14,7 @@ function loadDoc() {
           <td>
                 <a href="#" class="edit"><i class="fas fa-edit"></i>Chỉnh sửa</a
                 ><span>|</span
-                ><button class="delete" onclick="productDelete(this)"
+                ><button class="delete" onclick="productDelete(this,${users[i].id})"
                   ><i class="fas fa-trash-alt"></i>Xóa</button
                 >
               </td>
@@ -28,7 +28,12 @@ function loadDoc() {
 }
 loadDoc();
 
-function productDelete(ctl) {
+function productDelete(ctl, id) {
   $(ctl).parents("tr").remove();
+  $.ajax(
+    {
+      url: "https://faketaxi.herokuapp.com/users" + "/" + id,
+      method: "DELETE"
+    }
+  )
 }
-productDelete(ctl);
