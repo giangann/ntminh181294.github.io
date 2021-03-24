@@ -24,7 +24,7 @@
           </div>
           <div class="form-input">
             <label for="birthday">Năm sinh</label>
-            <input type="date" id="birthday" name="birthday" />
+            <input type="text" id="birthday" name="birthday" />
           </div>
           <div class="form-input">
             <label for="email">Email<span>*</span></label>
@@ -42,10 +42,29 @@
             <i class="fas fa-chevron-left"></i>Quay lại
           </button></a
         >
-        <a href="#"
-          ><button class="save"><i class="fas fa-save"></i>Lưu</button></a
-        >
+        <button class="save" onclick="createUser()">
+          <i class="fas fa-save"></i>Lưu
+        </button>
       </div>
     </div>
+    <script>
+      function createUser() {
+        $.post("https://faketaxi.herokuapp.com/users", {
+          name: $("#name").val(),
+          birthday: $("#birthday").val(),
+          phone: $("#phone").val(),
+          email: $("#email").val(),
+        })
+          .done(function () {
+            alert("them moi user thanh cong");
+            location.href = "index.html";
+          })
+          .fail(function (err) {
+            console.log("khong ket noi duoc sever");
+            location.href = "/";
+          });
+      }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </body>
 </html>
