@@ -22,7 +22,7 @@
   margin: 5px 0 10px 0;
 }
 
-button {
+.btn button {
   background-color: rgb(4, 179, 4);
   height: 35px;
   width: 180px;
@@ -38,7 +38,7 @@ button {
   text-decoration: none;
 }
 
-button:hover {
+.btn button:hover {
   background-color: white;
   color: rgb(4, 179, 4);
   border: 1px solid rgb(4, 179, 4);
@@ -92,6 +92,14 @@ tr:nth-of-type(even) {
 
 .delete {
   color: crimson;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete:hover {
+  color: black;
 }
 
 .edit i,

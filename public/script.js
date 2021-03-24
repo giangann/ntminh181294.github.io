@@ -14,8 +14,8 @@ function loadDoc() {
           <td>
                 <a href="#" class="edit"><i class="fas fa-edit"></i>Chỉnh sửa</a
                 ><span>|</span
-                ><a href="#" class="delete"
-                  ><i class="fas fa-trash-alt"></i>Xóa</a
+                ><button class="delete" onclick="productDelete(this)"
+                  ><i class="fas fa-trash-alt"></i>Xóa</button
                 >
               </td>
         </tr>`;
